@@ -5,7 +5,7 @@ This folder holds everything needed to check the headline numbers of the second 
 invented coding tasks, and a paid model arbitrated. The protocol and its pass/fail lines were
 written before any model ran.
 
-**Status: staged, not published.** Licensed under the MIT License; see `LICENSE`.
+**Status: published 2026-11-26** with the article at https://www.netrunsystems.com/blog/a-jury-of-local-models. Licensed under the MIT License; see `LICENSE`.
 
 ## Headline numbers, and how to reproduce them
 
