@@ -1,0 +1,1 @@
+{"verdict":"INCORRECT","failing_input":"([)]","reason":"The implementation never validates that a closing bracket matches the type of its corresponding opening bracket, so `([)]` incorrectly passes instead of raising ValueError for rule R1"}

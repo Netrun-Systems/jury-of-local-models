@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "0:00", "reason": "The implementation does not reject 0:00 which R4 explicitly forbids"}

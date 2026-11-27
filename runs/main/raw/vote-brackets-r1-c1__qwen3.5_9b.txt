@@ -1,0 +1,3 @@
+```json
+{"1": "INVALID", "2": "INVALID", "3": "MIXED", "4": "INVALID", "5": "MIXED", "6": "INVALID", "7": "MIXED", "8": "INVALID", "9": "MIXED", "10": "ROUND", "11": "INVALID", "12": "SQUARE", "13": "INVALID", "14": "INVALID", "15": "MIXED", "16": "MIXED", "17": "INVALID", "18": "MIXED", "19": "INVALID", "20": "INVALID", "21": "INVALID", "22": "ROUND", "23": "INVALID", "24": "MIXED", "25": "INVALID", "26": "MIXED", "27": "INVALID", "28": "INVALID", "29": "ROUND", "30": "INVALID"}
+```

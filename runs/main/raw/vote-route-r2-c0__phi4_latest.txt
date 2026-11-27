@@ -1,0 +1,68 @@
+```json
+{
+  "1": "INVALID",
+  "2": "INVALID",
+  "3": "INVALID",
+  "4": "INVALID",
+  "5": "VALID",
+  "6": "INVALID",
+  "7": "VALID",
+  "8": "VALID",
+  "9": "VALID",
+  "10": "INVALID",
+  "11": "VALID",
+  "12": "INVALID",
+  "13": "VALID",
+  "14": "INVALID",
+  "15": "INVALID",
+  "16": "INVALID",
+  "17": "INVALID",
+  "18": "VALID",
+  "19": "INVALID",
+  "20": "INVALID",
+  "21": "INVALID",
+  "22": "INVALID",
+  "23": "VALID",
+  "24": "INVALID",
+  "25": "INVALID",
+  "26": "INVALID",
+  "27": "INVALID",
+  "28": "INVALID",
+  "29": "INVALID",
+  "30": "VALID"
+}
+```
+
+### Explanation:
+
+1. **"033"**: INVALID - No valid direction letter.
+2. **"S1E3S3"**: INVALID - Two consecutive moves in the same direction ('S').
+3. **"31N12N"**: INVALID - Starts with numbers, not a valid direction.
+4. **"2WE1S3"**: INVALID - Starts with numbers, not a valid direction.
+5. **"E3S3"**: VALID - Two valid moves in different directions.
+6. **"S2W1S2"**: INVALID - Consecutive moves in the same direction ('S').
+7. **"N1E1N2"**: VALID - Three valid moves in different directions.
+8. **"N1"**: VALID - Single valid move.
+9. **"S2W3"**: VALID - Two valid moves in different directions.
+10. **"N2N1"**: INVALID - Two consecutive moves in the same direction ('N').
+11. **"S2N1W3"**: VALID - Three valid moves in different directions.
+12. **"EE"**: INVALID - Starts with 'E', not a valid direction.
+13. **"E3S3W3"**: VALID - Three valid moves in different directions.
+14. **"N2E4N0"**: INVALID - Steps not in the range 1-3.
+15. **"S1E2S1"**: INVALID - Consecutive moves reverse direction ('S' after 'E').
+16. **"S3S2"**: INVALID - Two consecutive moves in the same direction ('S').
+17. **"E0"**: INVALID - Steps not in the range 1-3.
+18. **"N3E3S2"**: VALID - Three valid moves in different directions.
+19. **"1"**: INVALID - No valid direction letter.
+20. **"N0"**: INVALID - Steps not in the range 1-3.
+21. **"N4"**: INVALID - Steps not in the range 1-3.
+22. **"E1NWW1"**: INVALID - 'WW' is invalid, two consecutive 'W' moves.
+23. **"E3N3W2"**: VALID - Three valid moves in different directions.
+24. **"S3E"**: INVALID - Missing steps for 'E'.
+25. **"S4W3S0"**: INVALID - Steps not in the range 1-3.
+26. **"E1NEW1"**: INVALID - 'NEW' is invalid, more than one letter.
+27. **"E3E2"**: INVALID - Two consecutive moves in the same direction ('E').
+28. **"ES2"**: INVALID - Starts with 'E', not a valid direction.
+29. **"W1"**: INVALID - First move is 'W'.
+30. **"E1S3"**: VALID - Two valid moves in different directions.
+```

@@ -1,0 +1,7 @@
+```json
+{
+  "verdict": "INCORRECT",
+  "failing_input": "U",
+  "reason": "The function does not raise ValueError when attempting to unlock a door that is not locked (violates R4), instead silently allowing invalid unlock operations on CLOSED or OPEN states."
+}
+```

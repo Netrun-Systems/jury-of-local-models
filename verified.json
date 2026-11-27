@@ -1,0 +1,279 @@
+{
+ "bin_code": {
+  "inputs": 271453,
+  "labels": {
+   "INVALID": 271438,
+   "VALID": 15
+  },
+  "variant_differs_on": {
+   "R1": 36,
+   "R2": 12,
+   "R3": 770,
+   "R4": 3,
+   "R5": 120
+  },
+  "single_rule_invalid": {
+   "R1": 36,
+   "R2": 12,
+   "R3": 770,
+   "R4": 3,
+   "R5": 120
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "span": {
+  "inputs": 16105,
+  "labels": {
+   "INVALID": 16082,
+   "VALID": 23
+  },
+  "variant_differs_on": {
+   "R1": 5,
+   "R2": 36,
+   "R3": 5,
+   "R4": 7
+  },
+  "single_rule_invalid": {
+   "R1": 5,
+   "R2": 36,
+   "R3": 5,
+   "R4": 7
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "tags": {
+  "inputs": 19531,
+  "labels": {
+   "INVALID": 19525,
+   "VALID": 6
+  },
+  "variant_differs_on": {
+   "R1": 4,
+   "R2": 3,
+   "R3": 3,
+   "R4": 1
+  },
+  "single_rule_invalid": {
+   "R1": 4,
+   "R2": 3,
+   "R3": 3,
+   "R4": 1
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "level": {
+  "inputs": 9331,
+  "labels": {
+   "INVALID": 9316,
+   "VALID": 15
+  },
+  "variant_differs_on": {
+   "R1": 37,
+   "R2": 24,
+   "R3": 1344,
+   "R4": 1
+  },
+  "single_rule_invalid": {
+   "R1": 37,
+   "R2": 24,
+   "R3": 1344,
+   "R4": 1
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "route": {
+  "inputs": 597871,
+  "labels": {
+   "INVALID": 597484,
+   "VALID": 387
+  },
+  "variant_differs_on": {
+   "R1": 1278,
+   "R2": 432,
+   "R3": 432,
+   "R4": 129
+  },
+  "single_rule_invalid": {
+   "R1": 1278,
+   "R2": 432,
+   "R3": 432,
+   "R4": 129
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "slot_time": {
+  "inputs": 37449,
+  "labels": {
+   "INVALID": 37429,
+   "VALID": 20
+  },
+  "variant_differs_on": {
+   "R1": 4,
+   "R2": 225,
+   "R3": 3,
+   "R4": 1
+  },
+  "single_rule_invalid": {
+   "R1": 4,
+   "R2": 225,
+   "R3": 3,
+   "R4": 1
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "hand": {
+  "inputs": 781,
+  "labels": {
+   "INVALID": 761,
+   "TRIPLE": 4,
+   "PAIR": 12,
+   "RUN": 2,
+   "PLAIN": 2
+  },
+  "variant_differs_on": {
+   "R1": 15,
+   "R2": 44,
+   "R3": 4,
+   "R4": 12,
+   "R5": 2
+  },
+  "single_rule_invalid": {
+   "R1": 15,
+   "R2": 44,
+   "R3": 0,
+   "R4": 0,
+   "R5": 0
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "door": {
+  "inputs": 3906,
+  "labels": {
+   "CLOSED": 7,
+   "OPEN": 3,
+   "INVALID": 3893,
+   "LOCKED": 3
+  },
+  "variant_differs_on": {
+   "R1": 56,
+   "R2": 18,
+   "R3": 9,
+   "R4": 42,
+   "R5": 8
+  },
+  "single_rule_invalid": {
+   "R1": 56,
+   "R2": 18,
+   "R3": 9,
+   "R4": 42,
+   "R5": 8
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "score_band": {
+  "inputs": 585,
+  "labels": {
+   "INVALID": 570,
+   "LOW": 6,
+   "MID": 5,
+   "HIGH": 4
+  },
+  "variant_differs_on": {
+   "R1": 22,
+   "R2": 328,
+   "R3": 6,
+   "R4": 5
+  },
+  "single_rule_invalid": {
+   "R1": 22,
+   "R2": 328,
+   "R3": 0,
+   "R4": 0
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "brackets": {
+  "inputs": 5461,
+  "labels": {
+   "INVALID": 5427,
+   "ROUND": 7,
+   "SQUARE": 7,
+   "MIXED": 20
+  },
+  "variant_differs_on": {
+   "R1": 198,
+   "R2": 4,
+   "R3": 1,
+   "R5": 20,
+   "R6": 8
+  },
+  "single_rule_invalid": {
+   "R1": 198,
+   "R2": 4,
+   "R3": 1,
+   "R5": 0,
+   "R6": 8
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ },
+ "practice_pin": {
+  "inputs": 1365,
+  "labels": {
+   "INVALID": 1176,
+   "VALID": 189
+  },
+  "variant_differs_on": {
+   "R1": 63,
+   "R2": 3
+  },
+  "single_rule_invalid": {
+   "R1": 63,
+   "R2": 3
+  },
+  "second_reference": {
+   "disagreements": 0,
+   "examples": []
+  },
+  "problems": []
+ }
+}

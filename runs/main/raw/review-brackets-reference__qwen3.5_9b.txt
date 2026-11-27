@@ -1,0 +1,1 @@
+{"verdict":"INCORRECT","failing_input":"([])","reason":"The implementation incorrectly rejects ([)] because it detects '(' while '[' is still on stack, but R6 only forbids opening round brackets directly inside square ones (i.e., between [ and its matching ]), not after ] closes."}

@@ -1,0 +1,2512 @@
+{
+ "gpt-oss:20b": {
+  "bin_code": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T06": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "span": {
+   "T01": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "tags": {
+   "T01": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T10": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   }
+  },
+  "level": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": null
+   }
+  },
+  "route": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": "R2"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": null
+   }
+  },
+  "slot_time": {
+   "T01": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T06": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "hand": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "NOT_REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   }
+  },
+  "door": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "CONTRADICTS",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T12": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   }
+  },
+  "score_band": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "CONTRADICTS",
+    "rule": "R5"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "brackets": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T03": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "CONTRADICTS",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  }
+ },
+ "gemma4:12b": {
+  "bin_code": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T06": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "span": {
+   "T01": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "tags": {
+   "T01": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T10": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "level": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": null
+   }
+  },
+  "route": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": null
+   }
+  },
+  "slot_time": {
+   "T01": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T06": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "hand": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   }
+  },
+  "door": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   }
+  },
+  "score_band": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "brackets": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T03": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   }
+  }
+ },
+ "phi4:latest": {
+  "bin_code": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "span": {
+   "T01": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "CONTRADICTS",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "tags": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T10": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "level": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "route": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": null
+   }
+  },
+  "slot_time": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "hand": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   }
+  },
+  "door": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "score_band": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "brackets": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   }
+  }
+ },
+ "deepseek-r1:14b": {
+  "bin_code": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "span": {
+   "T01": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "tags": {
+   "T01": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T10": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "level": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "route": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "slot_time": {
+   "T01": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T06": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "hand": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   }
+  },
+  "door": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   }
+  },
+  "score_band": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "brackets": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "CONTRADICTS",
+    "rule": "R6"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "CONTRADICTS",
+    "rule": "R6"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   }
+  }
+ },
+ "qwen3.5:9b": {
+  "bin_code": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T06": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "span": {
+   "T01": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "tags": {
+   "T01": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T10": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   }
+  },
+  "level": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T07": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T11": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": null
+   }
+  },
+  "route": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T07": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": null
+   }
+  },
+  "slot_time": {
+   "T01": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T06": {
+    "verdict": "CONTRADICTS",
+    "rule": "R3"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   }
+  },
+  "hand": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T09": {
+    "verdict": "CONTRADICTS",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   }
+  },
+  "door": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T02": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T04": {
+    "verdict": "CONTRADICTS",
+    "rule": "R4"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T06": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T08": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T10": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T11": {
+    "verdict": "CONTRADICTS",
+    "rule": null
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   }
+  },
+  "score_band": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T02": {
+    "verdict": "CONTRADICTS",
+    "rule": "R1"
+   },
+   "T03": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T05": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": "R1"
+   },
+   "T08": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  },
+  "brackets": {
+   "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   },
+   "T02": {
+    "verdict": "REQUIRED",
+    "rule": null
+   },
+   "T03": {
+    "verdict": "NOT_REQUIRED",
+    "rule": "R2"
+   },
+   "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   },
+   "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   },
+   "T07": {
+    "verdict": "REQUIRED",
+    "rule": "R3"
+   },
+   "T08": {
+    "verdict": "NOT_REQUIRED",
+    "rule": null
+   },
+   "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   },
+   "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+   },
+   "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+   }
+  }
+ }
+}

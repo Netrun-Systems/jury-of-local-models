@@ -1,0 +1,1 @@
+{"verdict":"INCORRECT","failing_input":"N2S1","reason":"The implementation does not check Rule R3 which forbids consecutive moves in opposite directions (like N after S or E after W)."}

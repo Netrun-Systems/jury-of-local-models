@@ -1,0 +1,7 @@
+```json
+{
+  "verdict": "INCORRECT",
+  "failing_input": "d",
+  "reason": "R1 requires tags to be only a, b, or c but the implementation accepts any alphabetic character like 'd'"
+}
+```

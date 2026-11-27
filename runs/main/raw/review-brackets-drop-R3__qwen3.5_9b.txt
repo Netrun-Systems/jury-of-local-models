@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "", "reason": "empty string should raise ValueError per R3 but implementation returns ROUND"}

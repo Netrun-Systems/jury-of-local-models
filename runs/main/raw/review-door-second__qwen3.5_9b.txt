@@ -1,0 +1,1 @@
+{"verdict": "CORRECT", "failing_input": null, "reason": "The implementation correctly enforces state transitions and input constraints per the specified rules without any logical errors."}

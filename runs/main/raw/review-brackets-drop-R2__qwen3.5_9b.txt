@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "((()))", "reason": "does not enforce rule R2 (max depth 2) — it accepts strings with more than 2 levels of nesting because the stack length is never checked against the depth limit"}

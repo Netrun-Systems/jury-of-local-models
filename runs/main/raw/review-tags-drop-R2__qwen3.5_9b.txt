@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "aa", "reason": "Does not enforce R2 (each tag may appear only once) — input 'aa' would pass as a single 2-character string since split('+') treats it as one part, and even if passed as 'a+a', duplicates are allowed"}

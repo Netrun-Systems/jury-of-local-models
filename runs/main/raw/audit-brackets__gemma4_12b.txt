@@ -1,0 +1,52 @@
+```json
+{
+  "T01": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+  },
+  "T02": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+  },
+  "T03": {
+    "verdict": "CONTRADICTS",
+    "rule": "R2"
+  },
+  "T04": {
+    "verdict": "REQUIRED",
+    "rule": "R4"
+  },
+  "T05": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+  },
+  "T06": {
+    "verdict": "REQUIRED",
+    "rule": "R1"
+  },
+  "T07": {
+    "verdict": "NOT_REQUIRED",
+    "rule": "-"
+  },
+  "T08": {
+    "verdict": "NOT_REQUIRED",
+    "rule": "-"
+  },
+  "T09": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+  },
+  "T10": {
+    "verdict": "REQUIRED",
+    "rule": "R2"
+  },
+  "T11": {
+    "verdict": "REQUIRED",
+    "rule": "R5"
+  },
+  "T12": {
+    "verdict": "REQUIRED",
+    "rule": "R6"
+  }
+}
+```

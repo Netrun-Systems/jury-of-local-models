@@ -1,0 +1,1 @@
+{"R1":{"breaks":["c2","C2","a2"],"keeps":["A2","B2"]},"R2":{"breaks":["A0","A4","A10"],"keeps":["A1","A3"]},"R3":{"breaks":["A2-z","B1-X","A2--x"],"keeps":["A2-x","A2-y"]},"R4":{"breaks":["B3","B3-x","B3-y"],"keeps":["B2","B2-x"]},"R5":{"breaks":["A2-xz","B1-ya","A3-y1"],"keeps":["A2-x","B1-y"]},"VALID":["A1","A2-x","A3-y","B1","B2-x","B2-y"]}

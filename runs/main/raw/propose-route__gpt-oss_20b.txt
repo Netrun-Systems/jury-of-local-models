@@ -1,0 +1,1 @@
+{"R1":{"breaks":["N0","S4","E10"],"keeps":["N1","E3"]},"R2":{"breaks":["N2N1","S3S2","E1E3"],"keeps":["N1E1N1","S1W1E1"]},"R3":{"breaks":["N2S1","S2N1","E1W2"],"keeps":["N1E1S1","E1N1W1"]},"R4":{"breaks":["W1N2","W2E3","W1S1"],"keeps":["E1","N1"]},"VALID":["N1","E3S2","S2E1N3","W2E1S3","N3W1E2","S1E3W2"]}

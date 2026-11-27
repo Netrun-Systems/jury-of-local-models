@@ -1,0 +1,3 @@
+```json
+{"verdict": "CORRECT", "failing_input": null, "reason": "The implementation correctly validates event characters, enforces all five rules (R1-R5), transitions between CLOSED/OPEN/LOCKED states per the door semantics, and returns the final state without fabricating or compressing output."}
+```

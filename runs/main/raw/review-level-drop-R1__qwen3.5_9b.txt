@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "05", "reason": "The implementation does not check for leading zeros in the whole part; '05' should be invalid under R1 but is accepted."}

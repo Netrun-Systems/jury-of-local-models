@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "c1", "reason": "The implementation accepts lowercase letters for aisle (R1 requires capital A or B only), so \"c1\" incorrectly returns (\"c\", 1, None) instead of raising ValueError."}

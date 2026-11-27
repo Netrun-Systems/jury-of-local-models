@@ -1,0 +1,1 @@
+{"verdict": "CORRECT", "failing_input": null, "reason": "The implementation correctly validates all format rules (digits in whole part, optional .5 fraction, no leading zeros except single 0, whole ≤9), rejects minus zero, and converts to halves accurately for all valid and invalid inputs including edge cases like '-', '1.', '-.5', '0.', '-0'.

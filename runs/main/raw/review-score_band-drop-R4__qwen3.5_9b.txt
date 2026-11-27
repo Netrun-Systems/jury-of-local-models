@@ -1,0 +1,5 @@
+{
+  "verdict": "INCORRECT",
+  "failing_input": "12",
+  "reason": "The implementation skips the MID band check and returns HIGH for scores 8-14 instead of MID"
+}

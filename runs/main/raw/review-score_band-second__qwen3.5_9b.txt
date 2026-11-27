@@ -1,0 +1,1 @@
+{"verdict": "CORRECT", "failing_input": null, "reason": "The implementation correctly validates digits-only input (0-20), rejects leading zeros on multi-digit numbers, and properly bands scores into LOW/MID/HIGH ranges for all valid cases."}

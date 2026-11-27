@@ -1,0 +1,67 @@
+```json
+{
+  "R1": {
+    "breaks": [
+      "OO",
+      "CC",
+      "UOC"
+    ],
+    "keeps": [
+      "O",
+      "OC"
+    ]
+  },
+  "R2": {
+    "breaks": [
+      "OL",
+      "UO",
+      "UUL"
+    ],
+    "keeps": [
+      "L",
+      "OCL"
+    ]
+  },
+  "R3": {
+    "breaks": [
+      "LO",
+      "LOU",
+      "L"
+    ],
+    "keeps": [
+      "OL",
+      "L"
+    ]
+  },
+  "R4": {
+    "breaks": [
+      "U",
+      "OU",
+      "OUL"
+    ],
+    "keeps": [
+      "LU",
+      "OCLU"
+    ]
+  },
+  "R5": {
+    "breaks": [
+      "OOOOO",
+      "CCCCC",
+      "LLLLL"
+    ],
+    "keeps": [
+      "LUO",
+      "OCLU"
+    ]
+  },
+  "VALID": [
+    "",
+    "O",
+    "OC",
+    "L",
+    "LUO",
+    "OCLU"
+  ]
+}
+```

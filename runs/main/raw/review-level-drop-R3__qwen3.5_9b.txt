@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "10", "reason": "The implementation does not enforce Rule R3 which requires the whole part to be 9 or less, allowing inputs like '10' to return a valid result when they should raise ValueError."}

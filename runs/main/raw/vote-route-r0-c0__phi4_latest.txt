@@ -1,0 +1,96 @@
+```json
+{
+  "1": "VALID",
+  "2": "INVALID",
+  "3": "INVALID",
+  "4": "INVALID",
+  "5": "VALID",
+  "6": "INVALID",
+  "7": "INVALID",
+  "8": "VALID",
+  "9": "INVALID",
+  "10": "VALID",
+  "11": "INVALID",
+  "12": "INVALID",
+  "13": "INVALID",
+  "14": "INVALID",
+  "15": "VALID",
+  "16": "INVALID",
+  "17": "INVALID",
+  "18": "VALID",
+  "19": "VALID",
+  "20": "INVALID",
+  "21": "INVALID",
+  "22": "VALID",
+  "23": "INVALID",
+  "24": "INVALID",
+  "25": "INVALID",
+  "26": "INVALID",
+  "27": "INVALID",
+  "28": "INVALID",
+  "29": "INVALID",
+  "30": "INVALID"
+}
+```
+
+**Explanation of Decisions:**
+
+1. "E2S3W1": Valid. It has valid moves: E2, S3, W1. No two consecutive moves are in the same or opposite direction.
+
+2. "E3S3W3": Invalid. The move from S to W is directly reversing.
+
+3. "W24N31": Invalid. Steps are more than 3, violating R1.
+
+4. "31N12N": Invalid. Starts with numbers, violating format.
+
+5. "N1E1N2": Valid. Moves are N1, E1, N2. No two consecutive moves are in the same or opposite direction.
+
+6. "E4S3": Invalid. The step 4 exceeds the maximum allowed by R1.
+
+7. "N1E1N1": Invalid. The move from E to N directly reverses N.
+
+8. "E3N2W3": Valid. Moves are E3, N2, W3. No two consecutive moves are in the same or opposite direction.
+
+9. "S2W1S2": Invalid. The move from W to S directly reverses S.
+
+10. "N2E1": Valid. Moves are N2, E1. No issues.
+
+11. "W1N2": Invalid. Starts with 'W', violating R4.
+
+12. "E0": Invalid. Steps are 0, violating R1.
+
+13. "S1E1S1": Invalid. The move from E to S directly reverses S.
+
+14. "N0": Invalid. Steps are 0, violating R1.
+
+15. "E3": Valid. Single move E3 with valid steps.
+
+16. "N2E4N0": Invalid. The step 4 exceeds the maximum allowed by R1 and N0 has step 0.
+
+17. "N2S1": Invalid. The move from N to S directly reverses N.
+
+18. "S1E3": Valid. Moves are S1, E3. No two consecutive moves are in the same or opposite direction.
+
+19. "E1S3": Valid. Moves are E1, S3. No two consecutive moves are in the same or opposite direction.
+
+20. "E3E2": Invalid. Two consecutive moves are in the same direction.
+
+21. "E1NEW1": Invalid. Contains an invalid direction 'W' within 'NEW1'.
+
+22. "E3S1W3": Valid. Moves are E3, S1, W3. No two consecutive moves are in the same or opposite direction.
+
+23. "S1E3S3": Invalid. The move from E to S directly reverses S.
+
+24. "S4": Invalid. Steps are 4, violating R1.
+
+25. "W1": Invalid. Starts with 'W', violating R4.
+
+26. "S1E2S1": Invalid. The move from E to S directly reverses S.
+
+27. "E1E1S2": Invalid. Two consecutive moves are in the same direction.
+
+28. "S2W3": Invalid. The move from S to W directly reverses S.
+
+29. "E3S2W": Invalid. Ends with 'W' without a number, violating format.
+
+30. "W1S1E2": Invalid. Starts with 'W', violating R4.

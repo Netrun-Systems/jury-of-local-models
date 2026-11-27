@@ -1,0 +1,67 @@
+```json
+{
+  "1": "INVALID",
+  "2": "INVALID",
+  "3": "INVALID",
+  "4": "INVALID",
+  "5": "INVALID",
+  "6": "INVALID",
+  "7": "INVALID",
+  "8": "INVALID",
+  "9": "VALID",
+  "10": "INVALID",
+  "11": "INVALID",
+  "12": "INVALID",
+  "13": "INVALID",
+  "14": "INVALID",
+  "15": "INVALID",
+  "16": "VALID",
+  "17": "VALID",
+  "18": "INVALID",
+  "19": "VALID",
+  "20": "INVALID",
+  "21": "VALID",
+  "22": "VALID",
+  "23": "INVALID",
+  "24": "INVALID",
+  "25": "INVALID",
+  "26": "VALID",
+  "27": "INVALID",
+  "28": "INVALID",
+  "29": "INVALID",
+  "30": "VALID"
+}
+```
+
+**Explanation:**
+
+1. "A--x": INVALID. The level digit is missing, and there is an extra hyphen.
+2. "A3A": INVALID. There is an extra character 'A' after the slot letter.
+3. "x3-y": INVALID. Aisle must be 'A' or 'B', but 'x' is not valid.
+4. "A33": INVALID. The level can only be a single digit from 1 to 3.
+5. "12-y": INVALID. The aisle must be 'A' or 'B'.
+6. "Ax-y": INVALID. There must be a level digit between the aisle and slot.
+7. "A2-4": INVALID. Slot letters must be 'x' or 'y', not '4'.
+8. "A3--": INVALID. Slot must be one letter, not an empty string or multiple hyphens.
+9. "B2": VALID. Aisle 'B', level '2', no slot.
+10. "A1--y": INVALID. There is an extra hyphen before the slot letter.
+11. "B1-X": INVALID. Slot letters must be lowercase 'x' or 'y'.
+12. "AyB-B": INVALID. The format is incorrect; multiple aisles/levels.
+13. "A22-x": INVALID. The level can only be a single digit.
+14. "A1-x ": INVALID. There is an extra space at the end.
+15. "A1-1": INVALID. Slot letters must be 'x' or 'y'.
+16. "B2-x": VALID. Aisle 'B', level '2', slot 'x'.
+17. "A2-x": VALID. Aisle 'A', level '2', slot 'x'.
+18. "Bz": INVALID. Aisle 'B' must have a level digit.
+19. "A3-y": VALID. Aisle 'A', level '3', slot 'y'.
+20. "A1-yA": INVALID. There is an extra character 'A' after the slot letter.
+21. "B2-y": VALID. Aisle 'B', level '2', slot 'y'.
+22. "A1": VALID. Aisle 'A', level '1', no slot.
+23. "x1-x": INVALID. Aisle must be 'A' or 'B', but 'x' is not valid.
+24. "A2-z": INVALID. Slot letters must be 'x' or 'y'.
+25. "A2-yC": INVALID. There is an extra character 'C' after the slot letter.
+26. "A2-y": VALID. Aisle 'A', level '2', slot 'y'.
+27. "B3-x": INVALID. Aisle 'B' cannot have level '3'.
+28. "A1-z": INVALID. Slot letters must be 'x' or 'y'.
+29. "A2-xz": INVALID. Slot can only be one letter.
+30. "A1-x": VALID. Aisle 'A', level '1', slot 'x'.

@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "8:30", "reason": "the implementation accepts hour 8 which violates R1 requiring hours from 0 to 7"}

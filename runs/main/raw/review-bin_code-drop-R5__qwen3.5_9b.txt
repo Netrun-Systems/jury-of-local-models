@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "A2-xz", "reason": "Rule R5 is violated because nothing may follow the slot, but this code accepts A2-xz where 'z' follows '-x'}

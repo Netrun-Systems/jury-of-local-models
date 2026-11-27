@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "0-4", "reason": "The implementation does not check R1 (neither digit may be 0), allowing invalid input like '0-4' to pass when it should raise ValueError."}

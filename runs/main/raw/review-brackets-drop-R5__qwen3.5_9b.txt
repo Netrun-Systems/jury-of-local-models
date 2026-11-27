@@ -1,0 +1,1 @@
+{"verdict": "CORRECT", "failing_input": null, "reason": "Implementation correctly validates all six rules (R1-R6), raises ValueError for invalid inputs including empty strings, unknown characters, mismatched brackets, nested too deep, round inside square, and unclosed brackets, while returning ROUND/SQUARE/MIXED based on bracket types present."}

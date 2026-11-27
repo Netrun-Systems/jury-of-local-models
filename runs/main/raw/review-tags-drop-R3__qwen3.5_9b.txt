@@ -1,0 +1,7 @@
+```json
+{
+  "verdict": "INCORRECT",
+  "failing_input": "ba",
+  "reason": "The implementation does not check R3 (alphabetical order), allowing inputs like 'ba' which should raise ValueError since 'b' comes after 'a'"
+}
+```

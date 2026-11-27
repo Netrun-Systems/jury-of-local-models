@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "325", "reason": "The implementation does not validate Rule R2 that ranks must be in non-decreasing order (lowest to highest), allowing inputs like '325' which violates the specification."}

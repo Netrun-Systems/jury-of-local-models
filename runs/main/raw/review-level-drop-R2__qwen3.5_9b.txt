@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "1.0", "reason": "The implementation accepts non-.5 fractions (like '1.0') because it only checks that frac has length 1 and is a digit, but R2 requires the fraction to be exactly '.5' or no fraction at all."}

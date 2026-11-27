@@ -1,0 +1,1 @@
+{"verdict": "CORRECT", "failing_input": null, "reason": "All state transitions match the rules: O only from CLOSED/UNLOCKED, C only from OPEN, L only from CLOSED/UNLOCKED, U only from LOCKED, and invalid inputs properly raise ValueError."}

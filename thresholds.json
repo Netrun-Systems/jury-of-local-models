@@ -1,0 +1,30 @@
+{
+ "_about": "Fixed before any model run (see PROTOCOL.md). analyze.py reads these; changing one after a run is a deviation that must be recorded in PROTOCOL.md.",
+ "primary_pair": [
+  "gpt-oss:20b",
+  "gemma4:12b"
+ ],
+ "seat_min_gold": 0.9,
+ "gate_min_settled": 10,
+ "H1_supported_at_or_below": 0.01,
+ "H1_refuted_above": 0.02,
+ "H1_min_settled": 299,
+ "H1_max_tasks_with_a_wrong_answer": 1,
+ "H2_min_spearman": 0.6,
+ "H3_min_gate_lead": 0.15,
+ "H4_min_variants_caught": 0.8,
+ "H5_min_planted_caught": 0.75,
+ "H5_max_good_flagged": 0.15,
+ "H6_min_leniency_share": 0.6,
+ "audit_sample_fraction": 0.1,
+ "declared_additional_pairs": [
+  {
+   "pair": [
+    "gpt-oss:20b",
+    "deepseek-r1:14b"
+   ],
+   "declared": "2026-11-25, after the interim results had been read",
+   "why": "Daniel's decision. gemma4:12b crashed on this workstation's Ollama even with thinking off (33 of 80 first attempts), which cost the primary pair half its task-repeats. This pair was chosen knowing its interim result (0 wrong answers of 956 settled), so it is weaker evidence than the primary pair."
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "6-2", "reason": "R2 requires start < end but the implementation does not check this ordering constraint, incorrectly accepting '6-2' which has start=6 greater than end=2"}

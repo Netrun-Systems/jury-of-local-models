@@ -1,0 +1,174 @@
+```json
+{
+  "1": "INVALID",
+  "2": "INVALID",
+  "3": "INVALID",
+  "4": "VALID",
+  "5": "VALID",
+  "6": "INVALID",
+  "7": "INVALID",
+  "8": "VALID",
+  "9": "INVALID",
+  "10": "INVALID",
+  "11": "INVALID",
+  "12": "INVALID",
+  "13": "INVALID",
+  "14": "INVALID",
+  "15": "INVALID",
+  "16": "INVALID",
+  "17": "VALID",
+  "18": "VALID",
+  "19": "VALID",
+  "20": "VALID",
+  "21": "INVALID",
+  "22": "INVALID",
+  "23": "INVALID",
+  "24": "INVALID",
+  "25": "VALID",
+  "26": "INVALID",
+  "27": "VALID",
+  "28": "INVALID",
+  "29": "INVALID",
+  "30": "INVALID"
+}
+```
+
+### Explanation
+
+Let's evaluate each input against the given rules:
+
+1. **"N3E3S2"**  
+   - "N3" -> Valid, "E3" -> Valid, "S2" -> Valid  
+   - But "E3" and "S2" are consecutive with the same number of steps (3).  
+   - **INVALID** due to R1.
+
+2. **"N0"**  
+   - Steps "0" is not between 1 and 3.  
+   - **INVALID** due to R1.
+
+3. **"N2S1"**  
+   - "N2" -> Valid, "S1" -> Valid  
+   - But "N" followed by "S" is a direct reversal.  
+   - **INVALID** due to R3.
+
+4. **"N1"**  
+   - Single valid move.  
+   - **VALID**.
+
+5. **"E3N3W2"**  
+   - "E3" -> Valid, "N3" -> Valid, "W2" -> Valid  
+   - No rules broken.  
+   - **VALID**.
+
+6. **"N1E1N1"**  
+   - "N1" -> Valid, "E1" -> Valid, "N1" -> Valid  
+   - "N" and "N" in sequence are the same direction.  
+   - **INVALID** due to R2.
+
+7. **"E2E3N2"**  
+   - "E2" -> Valid, "E3" -> Valid, "N2" -> Valid  
+   - But "E2" and "E3" are consecutive with the same direction.  
+   - **INVALID** due to R2.
+
+8. **"E2S3W1"**  
+   - "E2" -> Valid, "S3" -> Valid, "W1" -> Valid  
+   - No rules broken.  
+   - **VALID**.
+
+9. **"S4W3S0"**  
+   - "S4" steps are not between 1 and 3, and "S0" steps are not between 1 and 3.  
+   - **INVALID** due to R1.
+
+10. **"W24N31"**  
+    - "W24" steps are not between 1 and 3, and "N31" steps are not between 1 and 3.  
+    - **INVALID** due to R1.
+
+11. **"ES2"**  
+    - "E" is not followed by a digit.  
+    - **INVALID** due to format.
+
+12. **"W1S1E2"**  
+    - "W1" -> Valid, "S1" -> Valid, "E2" -> Valid  
+    - But "W" cannot be the first move.  
+    - **INVALID** due to R4.
+
+13. **"S1E1S1"**  
+    - "S1" -> Valid, "E1" -> Valid, "S1" -> Valid  
+    - But "E" and "S" are consecutive with the same number of steps (1).  
+    - **INVALID** due to R1.
+
+14. **"W1"**  
+    - "W" cannot be the first move.  
+    - **INVALID** due to R4.
+
+15. **"W1N2"**  
+    - "W" cannot be the first move.  
+    - **INVALID** due to R4.
+
+16. **"E4S3"**  
+    - "E4" steps are not between 1 and 3.  
+    - **INVALID** due to R1.
+
+17. **"E3N2W3"**  
+    - "E3" -> Valid, "N2" -> Valid, "W3" -> Valid  
+    - No rules broken.  
+    - **VALID**.
+
+18. **"E3S3"**  
+    - "E3" -> Valid, "S3" -> Valid  
+    - No rules broken.  
+    - **VALID**.
+
+19. **"E3N3W3"**  
+    - "E3" -> Valid, "N3" -> Valid, "W3" -> Valid  
+    - No rules broken.  
+    - **VALID**.
+
+20. **"S2W3"**  
+    - "S2" -> Valid, "W3" -> Valid  
+    - No rules broken.  
+    - **VALID**.
+
+21. **"S1E2S1"**  
+    - "S1" -> Valid, "E2" -> Valid, "S1" -> Valid  
+    - But "S" and "S" in sequence are the same direction.  
+    - **INVALID** due to R2.
+
+22. **"13"**  
+    - No valid direction-letter before the digit.  
+    - **INVALID** due to format.
+
+23. **"03NS4"**  
+    - "03" steps are not between 1 and 3, and "S4" steps are not between 1 and 3.  
+    - **INVALID** due to R1.
+
+24. **"033"**  
+    - No valid direction-letter before the digit.  
+    - **INVALID** due to format.
+
+25. **"S2N1W3"**  
+    - "S2" -> Valid, "N1" -> Valid, "W3" -> Valid  
+    - No rules broken.  
+    - **VALID**.
+
+26. **"31N12N"**  
+    - "31" steps are not between 1 and 3, and "12" steps are not between 1 and 3.  
+    - **INVALID** due to R1.
+
+27. **"E3S1W3"**  
+    - "E3" -> Valid, "S1" -> Valid, "W3" -> Valid  
+    - No rules broken.  
+    - **VALID**.
+
+28. **"N4"**  
+    - "N4" steps are not between 1 and 3.  
+    - **INVALID** due to R1.
+
+29. **"S4"**  
+    - "S4" steps are not between 1 and 3.  
+    - **INVALID** due to R1.
+
+30. **"S1E3S3"**  
+    - "S1" -> Valid, "E3" -> Valid, "S3" -> Valid  
+    - But "E" and "S" are consecutive with the same number of steps (3).  
+    - **INVALID** due to R1.

@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "000", "reason": "The implementation fails to validate that all digits are within the range 2-5 as required by Rule R1."}

@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "345", "reason": "The implementation returns PLAIN for consecutive ranks like '345' but R5 requires RUN for three consecutive ranks."}

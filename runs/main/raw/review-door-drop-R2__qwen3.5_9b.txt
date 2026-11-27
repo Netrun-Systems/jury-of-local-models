@@ -1,0 +1,1 @@
+{"verdict":"INCORRECT","failing_input":"OL","reason":"Locking an open door ('L' after 'O') violates R2 which requires only a closed, unlocked door to be lockable, but the code silently ignores this instead of raising ValueError"}

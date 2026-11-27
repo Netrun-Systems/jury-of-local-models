@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "B3", "reason": "Does not enforce R4 that aisle B cannot have level 3"}

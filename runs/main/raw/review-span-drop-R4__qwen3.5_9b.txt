@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "7-3", "reason": "The implementation does not check rule R4 which forbids using digit 7 at either end of the span"}

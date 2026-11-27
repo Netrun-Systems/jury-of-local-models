@@ -1,0 +1,1 @@
+{"R1":{"breaks":["OO","OOO","COO"],"keeps":["O","OC"]},"R2":{"breaks":["OL","OCLL","OLU"],"keeps":["OCL","OCLU"]},"R3":{"breaks":["LO","LOU","LOC"],"keeps":["LUO","LUOC"]},"R4":{"breaks":["U","OU","OCU"],"keeps":["LUO","LUOC"]},"R5":{"breaks":["OCOCO","OCLUO","LUCOO"],"keeps":["OCOC","OCLU"]},"VALID":["","O","L","OC","LU","OCL"]}

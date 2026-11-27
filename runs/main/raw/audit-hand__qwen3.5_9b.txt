@@ -1,0 +1,14 @@
+{
+  "T01": {"verdict": "REQUIRED", "rule": "R1"},
+  "T02": {"verdict": "CONTRADICTS", "rule": "R1"},
+  "T03": {"verdict": "NOT_REQUIRED", "rule": "-"},
+  "T04": {"verdict": "REQUIRED", "rule": "R2"},
+  "T05": {"verdict": "NOT_REQUIRED", "rule": "-"},
+  "T06": {"verdict": "REQUIRED", "rule": "R4"},
+  "T07": {"verdict": "REQUIRED", "rule": "R4"},
+  "T08": {"verdict": "REQUIRED", "rule": "R4"},
+  "T09": {"verdict": "CONTRADICTS", "rule": "R4"},
+  "T10": {"verdict": "REQUIRED", "rule": "R2"},
+  "T11": {"verdict": "REQUIRED", "rule": "R1"},
+  "T12": {"verdict": "REQUIRED", "rule": "R4"}
+}

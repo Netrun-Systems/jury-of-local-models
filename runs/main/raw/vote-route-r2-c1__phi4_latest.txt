@@ -1,0 +1,68 @@
+```json
+{
+  "1": "INVALID",
+  "2": "INVALID",
+  "3": "INVALID",
+  "4": "INVALID",
+  "5": "VALID",
+  "6": "INVALID",
+  "7": "INVALID",
+  "8": "VALID",
+  "9": "INVALID",
+  "10": "VALID",
+  "11": "INVALID",
+  "12": "INVALID",
+  "13": "INVALID",
+  "14": "VALID",
+  "15": "VALID",
+  "16": "VALID",
+  "17": "INVALID",
+  "18": "INVALID",
+  "19": "VALID",
+  "20": "INVALID",
+  "21": "VALID",
+  "22": "INVALID",
+  "23": "INVALID",
+  "24": "VALID",
+  "25": "VALID",
+  "26": "VALID",
+  "27": "INVALID",
+  "28": "INVALID",
+  "29": "VALID",
+  "30": "VALID"
+}
+```
+
+### Explanation:
+
+1. **"S2W1N1"**: INVALID. "W" follows "S", which is directly reversed.
+2. **"W1N2"**: INVALID. The first move is "W".
+3. **"S1E1S1"**: INVALID. "S" follows "S", which is the same direction.
+4. **"13"**: INVALID. No direction letter.
+5. **"E2S3W1"**: VALID. All rules followed.
+6. **"N1E1S1"**: INVALID. "S" follows "E", which is directly reversed.
+7. **"E4S3"**: INVALID. Steps "4" is not between 1 and 3.
+8. **"S1E3N2"**: VALID. All rules followed.
+9. **"S1N2"**: INVALID. "N" follows "S", which is directly reversed.
+10. **"E3N2W3"**: VALID. All rules followed.
+11. **"N3W"**: INVALID. No steps for "W".
+12. **"03NS4"**: INVALID. Steps "03" and "4" are not between 1 and 3.
+13. **"N2S1"**: INVALID. "S" follows "N", which is directly reversed.
+14. **"N3"**: VALID. Single move, all rules followed.
+15. **"N2E1"**: VALID. All rules followed.
+16. **"E3N3W3"**: VALID. All rules followed.
+17. **"E1E1S2"**: INVALID. "E" follows "E", which is the same direction.
+18. **"W1S1E2"**: INVALID. "W" is the first move.
+19. **"E2N1"**: VALID. All rules followed.
+20. **"S4"**: INVALID. Steps "4" is not between 1 and 3.
+21. **"W2E1"**: VALID. All rules followed.
+22. **"E3S2W"**: INVALID. No steps for "W".
+23. **"N1E1N1"**: INVALID. "N" follows "E", which is directly reversed.
+24. **"E1"**: VALID. Single move, all rules followed.
+25. **"S1W2"**: VALID. All rules followed.
+26. **"E3"**: VALID. Single move, all rules followed.
+27. **"E2E3N2"**: INVALID. "E" follows "E", which is the same direction.
+28. **"W24N31"**: INVALID. Steps "24" and "31" are not between 1 and 3.
+29. **"S1E3"**: VALID. All rules followed.
+30. **"E3S1W3"**: VALID. All rules followed.
+```

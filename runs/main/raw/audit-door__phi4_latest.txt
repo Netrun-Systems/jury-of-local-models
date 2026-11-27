@@ -1,0 +1,42 @@
+```json
+{
+  "T01": {"verdict": "REQUIRED", "rule": "R1"},
+  "T02": {"verdict": "NOT_REQUIRED", "rule": "-"},
+  "T03": {"verdict": "REQUIRED", "rule": "R1"},
+  "T04": {"verdict": "REQUIRED", "rule": "R4"},
+  "T05": {"verdict": "REQUIRED", "rule": "R4"},
+  "T06": {"verdict": "REQUIRED", "rule": "-"},
+  "T07": {"verdict": "REQUIRED", "rule": "R2"},
+  "T08": {"verdict": "REQUIRED", "rule": "-"},
+  "T09": {"verdict": "REQUIRED", "rule": "-"},
+  "T10": {"verdict": "REQUIRED", "rule": "R3"},
+  "T11": {"verdict": "REQUIRED", "rule": "R3"},
+  "T12": {"verdict": "REQUIRED", "rule": "R1"}
+}
+```
+
+Explanation:
+
+- **T01**: `door_state("OLL")` raises ValueError because once a door is open (`O`), it cannot be locked (`L`) according to R1.
+
+- **T02**: The performance requirement of returning a result in under one millisecond is not specified in the request, so it's not required.
+
+- **T03**: `door_state("OCOC")` returns 'CLOSED' because a closed door cannot be closed again (R1).
+
+- **T04**: `door_state("UUUU")` returns 'CLOSED' because you cannot unlock a door that is not locked (R4).
+
+- **T05**: `door_state("OUCU")` raises ValueError with the message "the door is not locked" because you cannot unlock (`U`) if the door is not locked (R4).
+
+- **T06**: `door_state("LU")` returns 'CLOSED' because a locked door can be unlocked to become closed.
+
+- **T07**: `door_state("LOUL")` raises ValueError because you cannot unlock (`U`) a door that is not locked (R4) after locking it.
+
+- **T08**: `door_state("LUOC")` returns 'CLOSED' because after unlocking (`U`), the door is closed, and then opening (`O`) followed by closing (`C`) is valid.
+
+- **T09**: `door_state("LULU")` returns 'CLOSED' because after unlocking (`U`), the door is closed, and locking (`L`) again followed by unlocking (`U`) results in a closed door.
+
+- **T10**: `door_state("LUL")` raises ValueError because a locked door cannot be locked again (R3).
+
+- **T11**: `door_state("LUUO")` raises ValueError because after unlocking (`U`), the door is closed, and you cannot unlock (`U`) again or open (`O`) if it is not locked.
+
+- **T12**: `door_state("LUOCL")` raises ValueError because after opening (`O`), the door cannot be closed (`C`) again (R1).

@@ -1,0 +1,1 @@
+{"verdict": "CORRECT", "failing_input": null, "reason": "The implementation correctly enforces input constraints (length 3, ranks 2-5, sorted order) and accurately classifies hands into TRIPLE, PAIR, RUN, or PLAIN according to the specified rules without logic errors."}

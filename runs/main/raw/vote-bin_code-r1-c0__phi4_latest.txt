@@ -1,0 +1,67 @@
+```json
+{
+  "1": "INVALID",
+  "2": "VALID",
+  "3": "INVALID",
+  "4": "INVALID",
+  "5": "INVALID",
+  "6": "INVALID",
+  "7": "VALID",
+  "8": "VALID",
+  "9": "INVALID",
+  "10": "INVALID",
+  "11": "INVALID",
+  "12": "INVALID",
+  "13": "INVALID",
+  "14": "INVALID",
+  "15": "INVALID",
+  "16": "INVALID",
+  "17": "INVALID",
+  "18": "INVALID",
+  "19": "INVALID",
+  "20": "INVALID",
+  "21": "VALID",
+  "22": "INVALID",
+  "23": "INVALID",
+  "24": "INVALID",
+  "25": "INVALID",
+  "26": "VALID",
+  "27": "INVALID",
+  "28": "INVALID",
+  "29": "INVALID",
+  "30": "INVALID"
+}
+```
+
+### Explanation
+
+1. **"A33"**: INVALID because the level is not a single digit from 1 to 3.
+2. **"A2-x"**: VALID as it follows all rules.
+3. **"A1-yA"**: INVALID because there's extra data after the slot.
+4. **"A--x"**: INVALID because there must be a level digit before the slot.
+5. **"B1Cy"**: INVALID because there's no hyphen before the slot.
+6. **"-3-y"**: INVALID because it starts with a hyphen and not an aisle.
+7. **"B2-x"**: VALID as it follows all rules.
+8. **"B2-y"**: VALID as it follows all rules.
+9. **"A1-z"**: INVALID because the slot letter must be 'x' or 'y'.
+10. **"Bz"**: INVALID because it lacks both level and slot format.
+11. **"C2"**: INVALID because aisle must be 'A' or 'B'.
+12. **"A3--"**: INVALID because there must be a slot letter after the hyphen.
+13. **"A2-z"**: INVALID because the slot letter must be 'x' or 'y'.
+14. **"B3-x"**: INVALID because aisle B cannot have level 3.
+15. **"A2-x"**: INVALID because it has extra data after the slot.
+16. **"Ax-y"**: INVALID because there's no level digit.
+17. **"12-y"**: INVALID because it lacks an aisle letter.
+18. **"y-2x"**: INVALID because it starts with a slot letter.
+19. **"B1-X"**: INVALID because the slot letter must be lowercase.
+20. **"A1-x1"**: INVALID because there's extra data after the slot.
+21. **"B1-y"**: VALID as it follows all rules.
+22. **"BA-x"**: INVALID because there's extra data after the aisle.
+23. **"A1-x "**: INVALID because there's extra data after the slot.
+24. **"30z44"**: INVALID because it doesn't follow any bin format.
+25. **"B2"**: VALID as it follows all rules.
+26. **"AyB-B"**: INVALID because there's extra data after the slot.
+27. **"A2-yC"**: INVALID because there's extra data after the slot.
+28. **"A3A"**: INVALID because there's extra data after the slot.
+29. **"B1-xA"**: INVALID because there's extra data after the slot.
+30. **"A1--y"**: INVALID because there must be a single hyphen before the slot.

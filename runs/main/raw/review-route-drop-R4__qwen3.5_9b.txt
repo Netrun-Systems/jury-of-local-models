@@ -1,0 +1,3 @@
+```json
+{"verdict": "INCORRECT", "failing_input": "W1", "reason": "The implementation fails to check rule R4 that the first move cannot be W."}
+```

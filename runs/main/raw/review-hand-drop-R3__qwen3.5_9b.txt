@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "444", "reason": "Three equal ranks should return TRIPLE per R3 but the code returns PAIR by treating all three-equal cases the same as two-equal cases"}

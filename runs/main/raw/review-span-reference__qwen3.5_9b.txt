@@ -1,0 +1,1 @@
+{"verdict": "CORRECT", "failing_input": null, "reason": "The implementation correctly validates all four rules (no zero digits, start < end, span ≤5, no digit 7) and rejects invalid formats by raising ValueError."}

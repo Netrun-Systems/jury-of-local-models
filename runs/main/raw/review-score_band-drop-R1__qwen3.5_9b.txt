@@ -1,0 +1,1 @@
+{"verdict":"INCORRECT","failing_input":"01","reason":"The implementation accepts strings with leading zeros like '01' which violates Rule R1 that forbids leading zeros except for single-digit 0"}

@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "1-6", "reason": "The function does not enforce R3 that the end may be at most 5 more than the start, so it accepts inputs like '1-6' which have a difference of 5 (valid) but '2-8' with difference of 6 which would be invalid"}

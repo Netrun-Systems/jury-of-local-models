@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "[()]", "reason": "The implementation does not enforce R6 (round bracket may not open directly inside a square one), allowing `[()]` which has `(` immediately following `[` in the nesting hierarchy when this structure is invalid."}

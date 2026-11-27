@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "N4", "reason": "fails rule R1 which requires steps to be 1-3, but the implementation only checks that characters are digits without validating they are in range 1-3"}

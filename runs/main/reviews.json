@@ -1,0 +1,280 @@
+{
+ "qwen3.5:9b": {
+  "bin_code": {
+   "reference": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "second": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "c1"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "A4"
+   },
+   "drop-R3": {
+    "verdict": "INCORRECT",
+    "failing_input": "\"A2-z\""
+   },
+   "drop-R4": {
+    "verdict": "INCORRECT",
+    "failing_input": "B3"
+   },
+   "drop-R5": {
+    "verdict": null,
+    "failing_input": null
+   }
+  },
+  "span": {
+   "reference": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "second": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "0-4"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "6-2"
+   },
+   "drop-R3": {
+    "verdict": "INCORRECT",
+    "failing_input": "1-6"
+   },
+   "drop-R4": {
+    "verdict": "INCORRECT",
+    "failing_input": "7-3"
+   }
+  },
+  "tags": {
+   "reference": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "second": {
+    "verdict": "INCORRECT",
+    "failing_input": "\"aa\""
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "d"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "aa"
+   },
+   "drop-R3": {
+    "verdict": "INCORRECT",
+    "failing_input": "ba"
+   },
+   "drop-R4": {
+    "verdict": "INCORRECT",
+    "failing_input": "a+b+c"
+   }
+  },
+  "level": {
+   "reference": {
+    "verdict": null,
+    "failing_input": null
+   },
+   "second": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "05"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "1.0"
+   },
+   "drop-R3": {
+    "verdict": "INCORRECT",
+    "failing_input": "10"
+   },
+   "drop-R4": {
+    "verdict": "INCORRECT",
+    "failing_input": "-0"
+   }
+  },
+  "route": {
+   "reference": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "second": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "N4"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "N2N1"
+   },
+   "drop-R3": {
+    "verdict": "INCORRECT",
+    "failing_input": "N2S1"
+   },
+   "drop-R4": {
+    "verdict": "INCORRECT",
+    "failing_input": "W1"
+   }
+  },
+  "slot_time": {
+   "reference": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "second": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "8:30"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "0:99"
+   },
+   "drop-R3": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R4": {
+    "verdict": "INCORRECT",
+    "failing_input": "0:00"
+   }
+  },
+  "hand": {
+   "reference": {
+    "verdict": "INCORRECT",
+    "failing_input": "[\"545\"]"
+   },
+   "second": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "000"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "325"
+   },
+   "drop-R3": {
+    "verdict": "INCORRECT",
+    "failing_input": "444"
+   },
+   "drop-R4": {
+    "verdict": "INCORRECT",
+    "failing_input": "223"
+   },
+   "drop-R5": {
+    "verdict": "INCORRECT",
+    "failing_input": "345"
+   }
+  },
+  "door": {
+   "reference": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "second": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "OO"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "OL"
+   },
+   "drop-R3": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R4": {
+    "verdict": "INCORRECT",
+    "failing_input": "U"
+   },
+   "drop-R5": {
+    "verdict": "INCORRECT",
+    "failing_input": "LUOCL"
+   }
+  },
+  "score_band": {
+   "reference": {
+    "verdict": "INCORRECT",
+    "failing_input": "21"
+   },
+   "second": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "01"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "21"
+   },
+   "drop-R3": {
+    "verdict": "INCORRECT",
+    "failing_input": "5"
+   },
+   "drop-R4": {
+    "verdict": "INCORRECT",
+    "failing_input": "12"
+   }
+  },
+  "brackets": {
+   "reference": {
+    "verdict": "INCORRECT",
+    "failing_input": "([])"
+   },
+   "second": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R1": {
+    "verdict": "INCORRECT",
+    "failing_input": "([)]"
+   },
+   "drop-R2": {
+    "verdict": "INCORRECT",
+    "failing_input": "((()))"
+   },
+   "drop-R3": {
+    "verdict": "INCORRECT",
+    "failing_input": ""
+   },
+   "drop-R5": {
+    "verdict": "CORRECT",
+    "failing_input": null
+   },
+   "drop-R6": {
+    "verdict": "INCORRECT",
+    "failing_input": "[()]"
+   }
+  }
+ }
+}

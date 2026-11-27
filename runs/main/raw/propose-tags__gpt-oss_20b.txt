@@ -1,0 +1,1 @@
+{"R1":{"breaks":["d","a+d","b+e"],"keeps":["a+b","a+c"]},"R2":{"breaks":["a+a","b+b","c+c"],"keeps":["a+b","b+c"]},"R3":{"breaks":["b+a","c+b","c+a"],"keeps":["a+b","a+c"]},"R4":{"breaks":["a+b+c","a+b+c","a+b+c"],"keeps":["a+b","b+c"]},"VALID":["a","b","c","a+b","a+c","b+c"]}

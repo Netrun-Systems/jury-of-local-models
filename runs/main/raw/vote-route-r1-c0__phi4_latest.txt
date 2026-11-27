@@ -1,0 +1,67 @@
+```json
+{
+    "1": "INVALID",
+    "2": "INVALID",
+    "3": "VALID",
+    "4": "INVALID",
+    "5": "VALID",
+    "6": "VALID",
+    "7": "INVALID",
+    "8": "INVALID",
+    "9": "VALID",
+    "10": "INVALID",
+    "11": "VALID",
+    "12": "VALID",
+    "13": "INVALID",
+    "14": "INVALID",
+    "15": "VALID",
+    "16": "INVALID",
+    "17": "INVALID",
+    "18": "INVALID",
+    "19": "VALID",
+    "20": "VALID",
+    "21": "VALID",
+    "22": "VALID",
+    "23": "INVALID",
+    "24": "VALID",
+    "25": "INVALID",
+    "26": "INVALID",
+    "27": "VALID",
+    "28": "INVALID",
+    "29": "INVALID",
+    "30": "INVALID"
+}
+```
+
+**Explanation:**
+
+1. **"E3S3W3"** - INVALID: "W3" breaks rule R4 (First move cannot be `W`).
+2. **"W2E1"** - INVALID: "W2" breaks rule R4.
+3. **"S1E3"** - VALID: Follows all rules.
+4. **"S2W1S2"** - INVALID: "W1S2" breaks rule R3 (Reverse move).
+5. **"N3"** - VALID: Single move, no violations.
+6. **"S2W1N1"** - VALID: All moves follow rules.
+7. **"S3S2"** - INVALID: "S3S2" breaks rule R2 (Two consecutive moves in the same direction).
+8. **"E1NWW1"** - INVALID: "WW1" breaks rule R1 (Steps must be 1-3).
+9. **"N2E1"** - VALID: All moves follow rules.
+10. **"E3E2"** - INVALID: "E3E2" breaks rule R2.
+11. **"N1E1N2"** - VALID: All moves follow rules.
+12. **"S1E3N2"** - VALID: All moves follow rules.
+13. **"S3E"** - INVALID: "E" is invalid as it lacks a step number.
+14. **"E3S2W"** - INVALID: "W" is invalid as it lacks a step number.
+15. **"E1"** - VALID: Single move, no violations.
+16. **"E1NEW1"** - INVALID: "NEW1" is not a valid direction and step format.
+17. **"1"** - INVALID: Lacks a direction letter.
+18. **"E0"** - INVALID: Steps must be 1-3.
+19. **"E1S3"** - VALID: All moves follow rules.
+20. **"E3"** - VALID: Single move, no violations.
+21. **"E2N1"** - VALID: All moves follow rules.
+22. **"N1E1S1"** - VALID: All moves follow rules.
+23. **"S1N2"** - INVALID: "S1N2" breaks rule R3 (Reverse move).
+24. **"S1W2"** - VALID: All moves follow rules.
+25. **"E1E1S2"** - INVALID: "E1E1" breaks rule R2.
+26. **"2WE1S3"** - INVALID: "2W" is invalid as it lacks a direction letter before the number.
+27. **"N3W"** - VALID: All moves follow rules.
+28. **"N2E4N0"** - INVALID: "E4" breaks rule R1, "N0" also breaks R1.
+29. **"EE"** - INVALID: Lacks step numbers.
+30. **"N2N1"** - INVALID: "N2N1" breaks rule R2.

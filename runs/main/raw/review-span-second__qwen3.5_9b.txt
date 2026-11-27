@@ -1,0 +1,1 @@
+{"verdict": "CORRECT", "failing_input": null, "reason": "All validation rules are properly checked: length/hyphen format, digit-only characters, zero prohibition (a==0 or b==0), seven prohibition (a==7 or b==7), start<end ordering, and gap≤5 range."}

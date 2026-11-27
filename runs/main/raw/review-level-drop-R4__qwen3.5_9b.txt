@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "-0", "reason": "The implementation accepts '-0' as valid input, but R4 explicitly forbids minus zero"}

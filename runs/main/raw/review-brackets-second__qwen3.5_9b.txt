@@ -1,0 +1,1 @@
+{"verdict": "CORRECT", "failing_input": null, "reason": "implementation correctly validates all rules including empty string rejection, max depth of 2, bracket matching, unclosed brackets detection, and properly returns ROUND/SQUARE/MIXED based on bracket type usage"}

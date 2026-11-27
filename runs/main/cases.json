@@ -1,0 +1,2112 @@
+{
+ "bin_code": {
+  "gold": [
+   "A1",
+   "B2-x",
+   "B2",
+   "A1-x",
+   "x3-y",
+   "A0-y",
+   "A33",
+   "B1-xA",
+   "x1-x",
+   "A0",
+   "-AA-C",
+   "30z44"
+  ],
+  "cases": [
+   {
+    "input": "C1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A1-z",
+    "stratum": "proposal"
+   },
+   {
+    "input": "B3",
+    "stratum": "proposal"
+   },
+   {
+    "input": "B1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A1-x ",
+    "stratum": "proposal"
+   },
+   {
+    "input": "c2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A2-z",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A2-x",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A2-xz",
+    "stratum": "proposal"
+   },
+   {
+    "input": "12",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A4",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A3",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A1-1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A1-y",
+    "stratum": "proposal"
+   },
+   {
+    "input": "B3-x",
+    "stratum": "proposal"
+   },
+   {
+    "input": "A1-x1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "B2-y",
+    "stratum": "proposal"
+   },
+   {
+    "input": "C2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "B1-X",
+    "stratum": "proposal"
+   },
+   {
+    "input": "Bz-x",
+    "stratum": "edit"
+   },
+   {
+    "input": "BA-x",
+    "stratum": "edit"
+   },
+   {
+    "input": "A3A",
+    "stratum": "edit"
+   },
+   {
+    "input": "Ax-y",
+    "stratum": "edit"
+   },
+   {
+    "input": "12-y",
+    "stratum": "edit"
+   },
+   {
+    "input": "A1-yA",
+    "stratum": "edit"
+   },
+   {
+    "input": "A--x",
+    "stratum": "edit"
+   },
+   {
+    "input": "B2zx",
+    "stratum": "edit"
+   },
+   {
+    "input": "Bz",
+    "stratum": "edit"
+   },
+   {
+    "input": "A22-x",
+    "stratum": "edit"
+   },
+   {
+    "input": "AyB-B",
+    "stratum": "random"
+   },
+   {
+    "input": "1y",
+    "stratum": "random"
+   },
+   {
+    "input": "",
+    "stratum": "random"
+   },
+   {
+    "input": "y-2x",
+    "stratum": "random"
+   },
+   {
+    "input": "B1-y",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "A3-x",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "A2-y",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "B1-x",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "A3-y",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "B1Cy",
+    "stratum": "edit"
+   },
+   {
+    "input": "B1-A",
+    "stratum": "edit"
+   },
+   {
+    "input": "A2x",
+    "stratum": "edit"
+   },
+   {
+    "input": "A1--y",
+    "stratum": "edit"
+   },
+   {
+    "input": "-3-y",
+    "stratum": "edit"
+   },
+   {
+    "input": "A3--",
+    "stratum": "edit"
+   },
+   {
+    "input": "A2-yC",
+    "stratum": "edit"
+   },
+   {
+    "input": "A2-4",
+    "stratum": "edit"
+   },
+   {
+    "input": "B24x",
+    "stratum": "edit"
+   }
+  ],
+  "reference_disputes": []
+ },
+ "span": {
+  "gold": [
+   "3-8",
+   "3-6",
+   "2-5",
+   "4-9",
+   "9-9",
+   "7-8",
+   "6-2",
+   "7-9",
+   "8339",
+   "4955",
+   "-098",
+   "360-"
+  ],
+  "cases": [
+   {
+    "input": "0-2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1-2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "5-4",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1-7",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1-6",
+    "stratum": "proposal"
+   },
+   {
+    "input": "6-8",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0-3",
+    "stratum": "proposal"
+   },
+   {
+    "input": "3-4",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1-8",
+    "stratum": "proposal"
+   },
+   {
+    "input": "6-7",
+    "stratum": "proposal"
+   },
+   {
+    "input": "2-0",
+    "stratum": "proposal"
+   },
+   {
+    "input": "8-9",
+    "stratum": "proposal"
+   },
+   {
+    "input": "2-2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "2-8",
+    "stratum": "proposal"
+   },
+   {
+    "input": "2-3",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0-4",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1-3",
+    "stratum": "proposal"
+   },
+   {
+    "input": "3-1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "5-6",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0-0",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1--3",
+    "stratum": "edit"
+   },
+   {
+    "input": "-16",
+    "stratum": "edit"
+   },
+   {
+    "input": "56-",
+    "stratum": "edit"
+   },
+   {
+    "input": "465",
+    "stratum": "edit"
+   },
+   {
+    "input": "116",
+    "stratum": "edit"
+   },
+   {
+    "input": "1-5",
+    "stratum": "edit"
+   },
+   {
+    "input": "89-",
+    "stratum": "edit"
+   },
+   {
+    "input": "889",
+    "stratum": "edit"
+   },
+   {
+    "input": "2-6",
+    "stratum": "edit"
+   },
+   {
+    "input": "3-82",
+    "stratum": "edit"
+   },
+   {
+    "input": "4976",
+    "stratum": "random"
+   },
+   {
+    "input": "-788",
+    "stratum": "random"
+   },
+   {
+    "input": "8914",
+    "stratum": "random"
+   },
+   {
+    "input": "6-0",
+    "stratum": "random"
+   },
+   {
+    "input": "4-5",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "6-9",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "1-4",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "4-6",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "3-5",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "2-4",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "5-8",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "5-9",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "4-8",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "2-39",
+    "stratum": "edit"
+   },
+   {
+    "input": "3-41",
+    "stratum": "edit"
+   },
+   {
+    "input": "26-",
+    "stratum": "edit"
+   },
+   {
+    "input": "34-",
+    "stratum": "edit"
+   },
+   {
+    "input": "--2",
+    "stratum": "edit"
+   }
+  ],
+  "reference_disputes": []
+ },
+ "tags": {
+  "gold": [
+   "a",
+   "b+c",
+   "a+b",
+   "+abad",
+   "ab+bdc",
+   "ab+d+c",
+   "cdd+da",
+   "+a+ada",
+   "bcbdcc",
+   "bba+aa",
+   "dac+ca",
+   "bbcadd"
+  ],
+  "cases": [
+   {
+    "input": "\"d\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"a\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"a+a\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"a+b\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"c+a\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"a+c\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"a+b+c\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "d",
+    "stratum": "proposal"
+   },
+   {
+    "input": "a+a",
+    "stratum": "proposal"
+   },
+   {
+    "input": "b+a",
+    "stratum": "proposal"
+   },
+   {
+    "input": "a+b+c",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"a+d\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"b+b\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"b+c\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"b+a\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"a+a+a\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"b\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "a+d",
+    "stratum": "proposal"
+   },
+   {
+    "input": "a+c",
+    "stratum": "proposal"
+   },
+   {
+    "input": "b+b",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"\"\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "a+bd",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"c\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "ac",
+    "stratum": "edit"
+   },
+   {
+    "input": "c+",
+    "stratum": "edit"
+   },
+   {
+    "input": "cb\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "+",
+    "stratum": "edit"
+   },
+   {
+    "input": "+a\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"a\"b\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "acdcdb",
+    "stratum": "random"
+   },
+   {
+    "input": "bcb",
+    "stratum": "random"
+   },
+   {
+    "input": "abdccb",
+    "stratum": "random"
+   },
+   {
+    "input": "abcaca",
+    "stratum": "random"
+   },
+   {
+    "input": "c",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "b",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "\"ab",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"b+c\"+",
+    "stratum": "edit"
+   },
+   {
+    "input": "aac",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"+bc\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"a\"+",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"a+\"\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "b+cb",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"abb\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "+a+c\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"+c",
+    "stratum": "edit"
+   },
+   {
+    "input": "b+c\"",
+    "stratum": "edit"
+   }
+  ],
+  "reference_disputes": []
+ },
+ "level": {
+  "gold": [
+   "1",
+   "-5",
+   "5",
+   "5.5",
+   "00009",
+   "-0.9",
+   "9015",
+   "-001",
+   "-0.1",
+   "95990",
+   "--0-.",
+   "105.0"
+  ],
+  "cases": [
+   {
+    "input": "05",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1.1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0.5",
+    "stratum": "proposal"
+   },
+   {
+    "input": "10",
+    "stratum": "proposal"
+   },
+   {
+    "input": "9",
+    "stratum": "proposal"
+   },
+   {
+    "input": "-0",
+    "stratum": "proposal"
+   },
+   {
+    "input": "-0.5",
+    "stratum": "proposal"
+   },
+   {
+    "input": "01",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1.0",
+    "stratum": "proposal"
+   },
+   {
+    "input": "-05",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1.9",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1.5",
+    "stratum": "proposal"
+   },
+   {
+    "input": "-10",
+    "stratum": "proposal"
+   },
+   {
+    "input": "8.5",
+    "stratum": "proposal"
+   },
+   {
+    "input": "-0.0",
+    "stratum": "proposal"
+   },
+   {
+    "input": "00",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0.1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "12",
+    "stratum": "proposal"
+   },
+   {
+    "input": "9.5",
+    "stratum": "proposal"
+   },
+   {
+    "input": "8.59",
+    "stratum": "edit"
+   },
+   {
+    "input": "-0.52",
+    "stratum": "edit"
+   },
+   {
+    "input": "8.",
+    "stratum": "edit"
+   },
+   {
+    "input": "-90",
+    "stratum": "edit"
+   },
+   {
+    "input": "0.52",
+    "stratum": "edit"
+   },
+   {
+    "input": "91",
+    "stratum": "edit"
+   },
+   {
+    "input": "1-5",
+    "stratum": "edit"
+   },
+   {
+    "input": ".",
+    "stratum": "edit"
+   },
+   {
+    "input": "0.-",
+    "stratum": "edit"
+   },
+   {
+    "input": "-95",
+    "stratum": "edit"
+   },
+   {
+    "input": "",
+    "stratum": "random"
+   },
+   {
+    "input": "-9",
+    "stratum": "random"
+   },
+   {
+    "input": ".99",
+    "stratum": "random"
+   },
+   {
+    "input": ".9--",
+    "stratum": "random"
+   },
+   {
+    "input": "-1",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "-5.5",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "-9.5",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "-1.5",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "9-",
+    "stratum": "edit"
+   },
+   {
+    "input": "-1-5",
+    "stratum": "edit"
+   },
+   {
+    "input": ".85",
+    "stratum": "edit"
+   },
+   {
+    "input": "9.9",
+    "stratum": "edit"
+   },
+   {
+    "input": ".95",
+    "stratum": "edit"
+   },
+   {
+    "input": "52",
+    "stratum": "edit"
+   },
+   {
+    "input": "..5",
+    "stratum": "edit"
+   },
+   {
+    "input": "50.5",
+    "stratum": "edit"
+   },
+   {
+    "input": "9..",
+    "stratum": "edit"
+   },
+   {
+    "input": "1.5-",
+    "stratum": "edit"
+   }
+  ],
+  "reference_disputes": []
+ },
+ "route": {
+  "gold": [
+   "N3E3S2",
+   "E3S1W3",
+   "S1E2S1",
+   "S2W1S2",
+   "N2E4N0",
+   "E1E1S2",
+   "S2N1W3",
+   "W1S1E2",
+   "S4W3S0",
+   "E2E3N2",
+   "31N12N",
+   "W24N31"
+  ],
+  "cases": [
+   {
+    "input": "N0",
+    "stratum": "proposal"
+   },
+   {
+    "input": "N1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "N2N1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "N2E1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "N2S1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "W1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "N1E1N1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "N1E1S1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "W1N2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "E1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "N4",
+    "stratum": "proposal"
+   },
+   {
+    "input": "N3",
+    "stratum": "proposal"
+   },
+   {
+    "input": "E3E2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "S1E3",
+    "stratum": "proposal"
+   },
+   {
+    "input": "S1N2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "E1S3",
+    "stratum": "proposal"
+   },
+   {
+    "input": "W2E1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "E3",
+    "stratum": "proposal"
+   },
+   {
+    "input": "S4",
+    "stratum": "proposal"
+   },
+   {
+    "input": "S3S2",
+    "stratum": "proposal"
+   },
+   {
+    "input": "E4S3",
+    "stratum": "edit"
+   },
+   {
+    "input": "2WE1S3",
+    "stratum": "edit"
+   },
+   {
+    "input": "N3W",
+    "stratum": "edit"
+   },
+   {
+    "input": "E1NEW1",
+    "stratum": "edit"
+   },
+   {
+    "input": "EE",
+    "stratum": "edit"
+   },
+   {
+    "input": "E1NWW1",
+    "stratum": "edit"
+   },
+   {
+    "input": "E0",
+    "stratum": "edit"
+   },
+   {
+    "input": "13",
+    "stratum": "edit"
+   },
+   {
+    "input": "E3S2W",
+    "stratum": "edit"
+   },
+   {
+    "input": "ES2",
+    "stratum": "edit"
+   },
+   {
+    "input": "S3E",
+    "stratum": "random"
+   },
+   {
+    "input": "03NS4",
+    "stratum": "random"
+   },
+   {
+    "input": "1",
+    "stratum": "random"
+   },
+   {
+    "input": "033",
+    "stratum": "random"
+   },
+   {
+    "input": "E2N1",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "N1E1N2",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "S1W2",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "E3S3W3",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "S1E3S3",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "S2W3",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "E2S3W1",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "S1E1S1",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "E3N2W3",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "S2W1N1",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "E3N3W2",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "E3S3",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "S1E3N2",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "E3N3W3",
+    "stratum": "valid-sample"
+   }
+  ],
+  "reference_disputes": []
+ },
+ "slot_time": {
+  "gold": [
+   "4:15",
+   "5:15",
+   "4:00",
+   "1:15",
+   "1:41",
+   "4:40",
+   "50333",
+   "53358",
+   "101:",
+   "55881",
+   "57481",
+   ":4043"
+  ],
+  "cases": [
+   {
+    "input": "8:00",
+    "stratum": "proposal"
+   },
+   {
+    "input": "7:00",
+    "stratum": "proposal"
+   },
+   {
+    "input": "3:16",
+    "stratum": "proposal"
+   },
+   {
+    "input": "3:14",
+    "stratum": "proposal"
+   },
+   {
+    "input": "7:15",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0:00",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0:15",
+    "stratum": "proposal"
+   },
+   {
+    "input": "6:00",
+    "stratum": "proposal"
+   },
+   {
+    "input": "3:10",
+    "stratum": "proposal"
+   },
+   {
+    "input": "3:00",
+    "stratum": "proposal"
+   },
+   {
+    "input": "6:45",
+    "stratum": "proposal"
+   },
+   {
+    "input": "9:15",
+    "stratum": "proposal"
+   },
+   {
+    "input": "4:10",
+    "stratum": "proposal"
+   },
+   {
+    "input": "7:30",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0:000",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1:00",
+    "stratum": "proposal"
+   },
+   {
+    "input": "4:20",
+    "stratum": "proposal"
+   },
+   {
+    "input": "3:15",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0:30",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1:30",
+    "stratum": "proposal"
+   },
+   {
+    "input": "3:169",
+    "stratum": "edit"
+   },
+   {
+    "input": "8:15",
+    "stratum": "edit"
+   },
+   {
+    "input": "6:115",
+    "stratum": "edit"
+   },
+   {
+    "input": "5:453",
+    "stratum": "edit"
+   },
+   {
+    "input": "7500",
+    "stratum": "edit"
+   },
+   {
+    "input": "4:152",
+    "stratum": "edit"
+   },
+   {
+    "input": "3:65",
+    "stratum": "edit"
+   },
+   {
+    "input": "0:31",
+    "stratum": "edit"
+   },
+   {
+    "input": "4:49",
+    "stratum": "edit"
+   },
+   {
+    "input": "1:16",
+    "stratum": "edit"
+   },
+   {
+    "input": "740",
+    "stratum": "random"
+   },
+   {
+    "input": "",
+    "stratum": "random"
+   },
+   {
+    "input": "::55",
+    "stratum": "random"
+   },
+   {
+    "input": "071",
+    "stratum": "random"
+   },
+   {
+    "input": "5:00",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "3:45",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "5:30",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "3:30",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "4:45",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "1:45",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "0:45",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "5:45",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "4:30",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "3:90",
+    "stratum": "edit"
+   },
+   {
+    "input": "015",
+    "stratum": "edit"
+   },
+   {
+    "input": "1:303",
+    "stratum": "edit"
+   },
+   {
+    "input": "3:13",
+    "stratum": "edit"
+   },
+   {
+    "input": "22:45",
+    "stratum": "edit"
+   }
+  ],
+  "reference_disputes": []
+ },
+ "hand": {
+  "gold": [
+   "355",
+   "235",
+   "234",
+   "333",
+   "346",
+   "242",
+   "466",
+   "553",
+   "623",
+   "6526",
+   "2522",
+   "4653"
+  ],
+  "cases": [
+   {
+    "input": "123",
+    "stratum": "proposal"
+   },
+   {
+    "input": "222",
+    "stratum": "proposal"
+   },
+   {
+    "input": "342",
+    "stratum": "proposal"
+   },
+   {
+    "input": "223",
+    "stratum": "proposal"
+   },
+   {
+    "input": "532",
+    "stratum": "proposal"
+   },
+   {
+    "input": "556",
+    "stratum": "proposal"
+   },
+   {
+    "input": "555",
+    "stratum": "proposal"
+   },
+   {
+    "input": "534",
+    "stratum": "proposal"
+   },
+   {
+    "input": "445",
+    "stratum": "proposal"
+   },
+   {
+    "input": "334",
+    "stratum": "proposal"
+   },
+   {
+    "input": "345",
+    "stratum": "proposal"
+   },
+   {
+    "input": "245",
+    "stratum": "proposal"
+   },
+   {
+    "input": "452",
+    "stratum": "proposal"
+   },
+   {
+    "input": "666",
+    "stratum": "proposal"
+   },
+   {
+    "input": "432",
+    "stratum": "proposal"
+   },
+   {
+    "input": "444",
+    "stratum": "proposal"
+   },
+   {
+    "input": "678",
+    "stratum": "proposal"
+   },
+   {
+    "input": "523",
+    "stratum": "proposal"
+   },
+   {
+    "input": "224",
+    "stratum": "proposal"
+   },
+   {
+    "input": "3334",
+    "stratum": "edit"
+   },
+   {
+    "input": "25",
+    "stratum": "edit"
+   },
+   {
+    "input": "554",
+    "stratum": "edit"
+   },
+   {
+    "input": "2233",
+    "stratum": "edit"
+   },
+   {
+    "input": "635",
+    "stratum": "edit"
+   },
+   {
+    "input": "2335",
+    "stratum": "edit"
+   },
+   {
+    "input": "228",
+    "stratum": "edit"
+   },
+   {
+    "input": "724",
+    "stratum": "edit"
+   },
+   {
+    "input": "243",
+    "stratum": "edit"
+   },
+   {
+    "input": "4453",
+    "stratum": "edit"
+   },
+   {
+    "input": "2",
+    "stratum": "random"
+   },
+   {
+    "input": "56",
+    "stratum": "random"
+   },
+   {
+    "input": "32",
+    "stratum": "random"
+   },
+   {
+    "input": "456",
+    "stratum": "random"
+   },
+   {
+    "input": "233",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "225",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "344",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "455",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "244",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "335",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "255",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "4445",
+    "stratum": "edit"
+   },
+   {
+    "input": "265",
+    "stratum": "edit"
+   },
+   {
+    "input": "2355",
+    "stratum": "edit"
+   },
+   {
+    "input": "314",
+    "stratum": "edit"
+   },
+   {
+    "input": "215",
+    "stratum": "edit"
+   },
+   {
+    "input": "325",
+    "stratum": "edit"
+   },
+   {
+    "input": "535",
+    "stratum": "edit"
+   },
+   {
+    "input": "5552",
+    "stratum": "edit"
+   }
+  ],
+  "reference_disputes": []
+ },
+ "door": {
+  "gold": [
+   "",
+   "LUL",
+   "O",
+   "OCLU",
+   "CLUO",
+   "OLC",
+   "LULO",
+   "UOCU",
+   "OCLUL",
+   "CL",
+   "CUCLx",
+   "CCLUx"
+  ],
+  "cases": [
+   {
+    "input": "OO",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OL",
+    "stratum": "proposal"
+   },
+   {
+    "input": "L",
+    "stratum": "proposal"
+   },
+   {
+    "input": "LO",
+    "stratum": "proposal"
+   },
+   {
+    "input": "U",
+    "stratum": "proposal"
+   },
+   {
+    "input": "LU",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OOOOO",
+    "stratum": "proposal"
+   },
+   {
+    "input": "LUO",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OCL",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OCOCO",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OCOC",
+    "stratum": "proposal"
+   },
+   {
+    "input": "CC",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OC",
+    "stratum": "proposal"
+   },
+   {
+    "input": "UO",
+    "stratum": "proposal"
+   },
+   {
+    "input": "LOU",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OU",
+    "stratum": "proposal"
+   },
+   {
+    "input": "CCCCC",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OOO",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OCLL",
+    "stratum": "proposal"
+   },
+   {
+    "input": "LUOC",
+    "stratum": "proposal"
+   },
+   {
+    "input": "OCU",
+    "stratum": "edit"
+   },
+   {
+    "input": "OLLU",
+    "stratum": "edit"
+   },
+   {
+    "input": "OUOC",
+    "stratum": "edit"
+   },
+   {
+    "input": "OCC",
+    "stratum": "edit"
+   },
+   {
+    "input": "OCLUO",
+    "stratum": "edit"
+   },
+   {
+    "input": "OCOCL",
+    "stratum": "edit"
+   },
+   {
+    "input": "ULO",
+    "stratum": "edit"
+   },
+   {
+    "input": "OCOO",
+    "stratum": "edit"
+   },
+   {
+    "input": "LCL",
+    "stratum": "edit"
+   },
+   {
+    "input": "UUOC",
+    "stratum": "edit"
+   },
+   {
+    "input": "UCU",
+    "stratum": "random"
+   },
+   {
+    "input": "LUU",
+    "stratum": "random"
+   },
+   {
+    "input": "OxU",
+    "stratum": "random"
+   },
+   {
+    "input": "xCUC",
+    "stratum": "random"
+   },
+   {
+    "input": "LULU",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "OCO",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "OOL",
+    "stratum": "edit"
+   },
+   {
+    "input": "OLL",
+    "stratum": "edit"
+   },
+   {
+    "input": "COL",
+    "stratum": "edit"
+   },
+   {
+    "input": "LUUOC",
+    "stratum": "edit"
+   },
+   {
+    "input": "OULU",
+    "stratum": "edit"
+   },
+   {
+    "input": "OCCOC",
+    "stratum": "edit"
+   },
+   {
+    "input": "LUOU",
+    "stratum": "edit"
+   },
+   {
+    "input": "LCOC",
+    "stratum": "edit"
+   },
+   {
+    "input": "UC",
+    "stratum": "edit"
+   },
+   {
+    "input": "LUOL",
+    "stratum": "edit"
+   },
+   {
+    "input": "LLOC",
+    "stratum": "edit"
+   },
+   {
+    "input": "LOOC",
+    "stratum": "edit"
+   }
+  ],
+  "reference_disputes": []
+ },
+ "score_band": {
+  "gold": [
+   "20",
+   "7",
+   "11",
+   "18",
+   "014",
+   "452",
+   "007",
+   "288",
+   "-47",
+   "-72",
+   "-2-",
+   "087"
+  ],
+  "cases": [
+   {
+    "input": "\"01\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"0\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"21\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"20\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"8\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"7\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"14\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"15\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "01",
+    "stratum": "proposal"
+   },
+   {
+    "input": "0",
+    "stratum": "proposal"
+   },
+   {
+    "input": "21",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"00\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"100\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "001",
+    "stratum": "proposal"
+   },
+   {
+    "input": "1",
+    "stratum": "proposal"
+   },
+   {
+    "input": "99",
+    "stratum": "proposal"
+   },
+   {
+    "input": "19",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"012\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "\"-5\"",
+    "stratum": "proposal"
+   },
+   {
+    "input": "012",
+    "stratum": "proposal"
+   },
+   {
+    "input": "28\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "19-",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"74",
+    "stratum": "edit"
+   },
+   {
+    "input": "2-",
+    "stratum": "edit"
+   },
+   {
+    "input": "-15\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "201",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"0",
+    "stratum": "edit"
+   },
+   {
+    "input": "00\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "\"02\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "151",
+    "stratum": "edit"
+   },
+   {
+    "input": "41",
+    "stratum": "random"
+   },
+   {
+    "input": "",
+    "stratum": "random"
+   },
+   {
+    "input": "0-2",
+    "stratum": "random"
+   },
+   {
+    "input": "4-",
+    "stratum": "random"
+   },
+   {
+    "input": "17",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "2",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "10",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "15",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "5",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "8",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "4",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "12",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "14",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "08",
+    "stratum": "edit"
+   },
+   {
+    "input": "920\"",
+    "stratum": "edit"
+   },
+   {
+    "input": "149",
+    "stratum": "edit"
+   },
+   {
+    "input": "77",
+    "stratum": "edit"
+   },
+   {
+    "input": "127",
+    "stratum": "edit"
+   }
+  ],
+  "reference_disputes": []
+ },
+ "brackets": {
+  "gold": [
+   "()[]()",
+   "()(())",
+   "[[]][]",
+   "()[]",
+   "([][))",
+   "[()()]",
+   "(](())",
+   "[[]()]",
+   "[)[[)[",
+   ")[[()]",
+   "((([[]",
+   "[]([]["
+  ],
+  "cases": [
+   {
+    "input": "([)",
+    "stratum": "proposal"
+   },
+   {
+    "input": "([])",
+    "stratum": "proposal"
+   },
+   {
+    "input": "((()))",
+    "stratum": "proposal"
+   },
+   {
+    "input": "(( ))",
+    "stratum": "proposal"
+   },
+   {
+    "input": "",
+    "stratum": "proposal"
+   },
+   {
+    "input": "()",
+    "stratum": "proposal"
+   },
+   {
+    "input": "[()]",
+    "stratum": "proposal"
+   },
+   {
+    "input": "([)]",
+    "stratum": "proposal"
+   },
+   {
+    "input": "(())",
+    "stratum": "proposal"
+   },
+   {
+    "input": "[]",
+    "stratum": "proposal"
+   },
+   {
+    "input": "](",
+    "stratum": "proposal"
+   },
+   {
+    "input": "[[[]]]",
+    "stratum": "proposal"
+   },
+   {
+    "input": "[[ ]]",
+    "stratum": "proposal"
+   },
+   {
+    "input": " ",
+    "stratum": "proposal"
+   },
+   {
+    "input": "()()",
+    "stratum": "proposal"
+   },
+   {
+    "input": "[[()]]",
+    "stratum": "proposal"
+   },
+   {
+    "input": "(](",
+    "stratum": "proposal"
+   },
+   {
+    "input": "(()(()))",
+    "stratum": "proposal"
+   },
+   {
+    "input": "(()())",
+    "stratum": "proposal"
+   },
+   {
+    "input": "[[]]",
+    "stratum": "proposal"
+   },
+   {
+    "input": "(]])",
+    "stratum": "edit"
+   },
+   {
+    "input": "() )",
+    "stratum": "edit"
+   },
+   {
+    "input": "( ][])",
+    "stratum": "edit"
+   },
+   {
+    "input": "()[]]",
+    "stratum": "edit"
+   },
+   {
+    "input": "([][[])",
+    "stratum": "edit"
+   },
+   {
+    "input": "(() )",
+    "stratum": "edit"
+   },
+   {
+    "input": "() ))",
+    "stratum": "edit"
+   },
+   {
+    "input": "(() ",
+    "stratum": "edit"
+   },
+   {
+    "input": "())",
+    "stratum": "edit"
+   },
+   {
+    "input": "[())",
+    "stratum": "edit"
+   },
+   {
+    "input": "[()()[",
+    "stratum": "random"
+   },
+   {
+    "input": "(",
+    "stratum": "random"
+   },
+   {
+    "input": ")",
+    "stratum": "random"
+   },
+   {
+    "input": "])((]]",
+    "stratum": "random"
+   },
+   {
+    "input": "()[][]",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "(())()",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[[][]]",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "([])()",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "()()()",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[][]",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[]([])",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[][][]",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[][]()",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[][[]]",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[](())",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[]()[]",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[]()()",
+    "stratum": "valid-sample"
+   },
+   {
+    "input": "[[]]()",
+    "stratum": "valid-sample"
+   }
+  ],
+  "reference_disputes": []
+ }
+}

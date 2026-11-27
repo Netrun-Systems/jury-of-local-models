@@ -1,0 +1,742 @@
+{
+ "bin_code": [
+  {
+   "text": "parse_bin(\"A3B2\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R3",
+   "id": "T01"
+  },
+  {
+   "text": "parse_bin(\"A3-y\") returns ('A', 3, 'y')",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T02"
+  },
+  {
+   "text": "parse_bin(\"A2-x\") returns ('A', 2, 'x')",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T03"
+  },
+  {
+   "text": "parse_bin(\"B3\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R4",
+   "id": "T04"
+  },
+  {
+   "text": "parse_bin(\"A1-y\") returns ('A', 1, 'y')",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T05"
+  },
+  {
+   "text": "parse_bin(\"A1-x\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T06"
+  },
+  {
+   "text": "parse_bin(\"A3A3\") raises ValueError with the message \"bad slot\"",
+   "kind": "not_required",
+   "rule": "R3",
+   "id": "T07"
+  },
+  {
+   "text": "parse_bin(\"A3-x3\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R5",
+   "id": "T08"
+  },
+  {
+   "text": "parse_bin(\"A2zy\") returns ('A', 2, 'y')",
+   "kind": "contradicts",
+   "rule": "R3",
+   "id": "T09"
+  },
+  {
+   "text": "parse_bin(\"B1\") returns ('B', 1, None)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T10"
+  },
+  {
+   "text": "parse_bin(\"A3\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T11"
+  },
+  {
+   "text": "parse_bin(\"y3\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T12"
+  }
+ ],
+ "span": [
+  {
+   "text": "parse_span(\"6-8\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T01"
+  },
+  {
+   "text": "parse_span(\"2-6\") returns (2, 6)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T02"
+  },
+  {
+   "text": "parse_span(\"1-2\") returns (1, 2)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T03"
+  },
+  {
+   "text": "parse_span(\"1-3\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T04"
+  },
+  {
+   "text": "parse_span(\"2-8\") returns (2, 8)",
+   "kind": "contradicts",
+   "rule": "R3",
+   "id": "T05"
+  },
+  {
+   "text": "parse_span(\"3-7\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R4",
+   "id": "T06"
+  },
+  {
+   "text": "parse_span(\"1-8\") raises ValueError with the message \"span too long\"",
+   "kind": "not_required",
+   "rule": "R3",
+   "id": "T07"
+  },
+  {
+   "text": "parse_span(\"1-9\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R3",
+   "id": "T08"
+  },
+  {
+   "text": "parse_span(\"3-4\") returns (3, 4)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T09"
+  },
+  {
+   "text": "parse_span(\"6-9\") returns (6, 9)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T10"
+  },
+  {
+   "text": "parse_span(\"0-4\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T11"
+  },
+  {
+   "text": "parse_span(\"9-2\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T12"
+  }
+ ],
+ "tags": [
+  {
+   "text": "parse_tags(\"b+d\") returns ('b', 'd')",
+   "kind": "contradicts",
+   "rule": "R1",
+   "id": "T01"
+  },
+  {
+   "text": "parse_tags(\"b+a\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R3",
+   "id": "T02"
+  },
+  {
+   "text": "parse_tags(\"c\") returns ('c',)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T03"
+  },
+  {
+   "text": "parse_tags(\"a\") returns ('a',)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T04"
+  },
+  {
+   "text": "parse_tags(\"a+b\") returns ('a', 'b')",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T05"
+  },
+  {
+   "text": "parse_tags(\"b+b\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T06"
+  },
+  {
+   "text": "parse_tags(\"b+c\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T07"
+  },
+  {
+   "text": "parse_tags(\"a+b+c\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R4",
+   "id": "T08"
+  },
+  {
+   "text": "parse_tags(\"a+d\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T09"
+  },
+  {
+   "text": "parse_tags(\"a+c\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T10"
+  },
+  {
+   "text": "parse_tags(\"b\") returns ('b',)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T11"
+  },
+  {
+   "text": "parse_tags(\"d\") raises ValueError with the message \"unknown tag\"",
+   "kind": "not_required",
+   "rule": "R1",
+   "id": "T12"
+  }
+ ],
+ "level": [
+  {
+   "text": "parse_level(\"5\") returns 10",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T01"
+  },
+  {
+   "text": "parse_level(\"15501\") raises ValueError with the message \"out of range\"",
+   "kind": "not_required",
+   "rule": "R3",
+   "id": "T02"
+  },
+  {
+   "text": "parse_level(\"5.5\") returns 11",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T03"
+  },
+  {
+   "text": "parse_level(\"-9.5\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T04"
+  },
+  {
+   "text": "parse_level(\"-1\") returns -2",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T05"
+  },
+  {
+   "text": "parse_level(\"9.1\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T06"
+  },
+  {
+   "text": "parse_level(\"91595\") returns 183190",
+   "kind": "contradicts",
+   "rule": "R3",
+   "id": "T07"
+  },
+  {
+   "text": "parse_level(\"-5\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T08"
+  },
+  {
+   "text": "parse_level(\"-0\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R4",
+   "id": "T09"
+  },
+  {
+   "text": "parse_level(\"05.5\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T10"
+  },
+  {
+   "text": "parse_level(\"1011\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R3",
+   "id": "T11"
+  },
+  {
+   "text": "parse_level(\"-1.5\") returns -3",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T12"
+  }
+ ],
+ "route": [
+  {
+   "text": "parse_route(\"N1N2N1\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T01"
+  },
+  {
+   "text": "parse_route(\"N1E1\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T02"
+  },
+  {
+   "text": "parse_route(\"W2N2W1\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R4",
+   "id": "T03"
+  },
+  {
+   "text": "parse_route(\"N2E1W3\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R3",
+   "id": "T04"
+  },
+  {
+   "text": "parse_route(\"S1E2S1\") returns (('S', 1), ('E', 2), ('S', 1))",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T05"
+  },
+  {
+   "text": "parse_route(\"S2W1S3\") returns (('S', 2), ('W', 1), ('S', 3))",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T06"
+  },
+  {
+   "text": "parse_route(\"E3N1N3\") raises ValueError with the message \"same direction twice in a row\"",
+   "kind": "not_required",
+   "rule": "R2",
+   "id": "T07"
+  },
+  {
+   "text": "parse_route(\"S1E4N2\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T08"
+  },
+  {
+   "text": "parse_route(\"N3E2E3\") returns (('N', 3), ('E', 2), ('E', 3))",
+   "kind": "contradicts",
+   "rule": "R2",
+   "id": "T09"
+  },
+  {
+   "text": "parse_route(\"N3W3S1\") returns (('N', 3), ('W', 3), ('S', 1))",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T10"
+  },
+  {
+   "text": "parse_route(\"S1W1N1\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T11"
+  },
+  {
+   "text": "parse_route(\"S3E1N3\") returns (('S', 3), ('E', 1), ('N', 3))",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T12"
+  }
+ ],
+ "slot_time": [
+  {
+   "text": "parse_slot(\"4:45\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T01"
+  },
+  {
+   "text": "parse_slot(\"0:45\") returns (0, 45)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T02"
+  },
+  {
+   "text": "parse_slot(\"1:17\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T03"
+  },
+  {
+   "text": "parse_slot(\"7:15\") raises ValueError with the message \"7:00 is the last slot\"",
+   "kind": "not_required",
+   "rule": "R3",
+   "id": "T04"
+  },
+  {
+   "text": "parse_slot(\"3:30\") returns (3, 30)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T05"
+  },
+  {
+   "text": "parse_slot(\"7:45\") returns (7, 45)",
+   "kind": "contradicts",
+   "rule": "R3",
+   "id": "T06"
+  },
+  {
+   "text": "parse_slot(\"0:00\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R4",
+   "id": "T07"
+  },
+  {
+   "text": "parse_slot(\"7:30\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R3",
+   "id": "T08"
+  },
+  {
+   "text": "parse_slot(\"3:45\") returns (3, 45)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T09"
+  },
+  {
+   "text": "parse_slot(\"4:15\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T10"
+  },
+  {
+   "text": "parse_slot(\"3:00\") returns (3, 0)",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T11"
+  },
+  {
+   "text": "parse_slot(\"8:15\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T12"
+  }
+ ],
+ "hand": [
+  {
+   "text": "classify_hand(\"336\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T01"
+  },
+  {
+   "text": "classify_hand(\"236\") returns 'PLAIN'",
+   "kind": "contradicts",
+   "rule": "R1",
+   "id": "T02"
+  },
+  {
+   "text": "classify_hand(\"256\") raises ValueError with the message \"unknown rank\"",
+   "kind": "not_required",
+   "rule": "R1",
+   "id": "T03"
+  },
+  {
+   "text": "classify_hand(\"325\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T04"
+  },
+  {
+   "text": "classify_hand(\"345\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T05"
+  },
+  {
+   "text": "classify_hand(\"223\") returns 'PAIR'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T06"
+  },
+  {
+   "text": "classify_hand(\"233\") returns 'PAIR'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T07"
+  },
+  {
+   "text": "classify_hand(\"225\") returns 'PAIR'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T08"
+  },
+  {
+   "text": "classify_hand(\"445\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T09"
+  },
+  {
+   "text": "classify_hand(\"232\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T10"
+  },
+  {
+   "text": "classify_hand(\"356\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T11"
+  },
+  {
+   "text": "classify_hand(\"255\") returns 'PAIR'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T12"
+  }
+ ],
+ "door": [
+  {
+   "text": "door_state(\"OLL\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T01"
+  },
+  {
+   "text": "door_state(\"L\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T02"
+  },
+  {
+   "text": "door_state(\"OCOC\") returns 'CLOSED'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T03"
+  },
+  {
+   "text": "door_state(\"UUUU\") returns 'CLOSED'",
+   "kind": "contradicts",
+   "rule": "R4",
+   "id": "T04"
+  },
+  {
+   "text": "door_state(\"OUCU\") raises ValueError with the message \"the door is not locked\"",
+   "kind": "not_required",
+   "rule": "R4",
+   "id": "T05"
+  },
+  {
+   "text": "door_state(\"LU\") returns 'CLOSED'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T06"
+  },
+  {
+   "text": "door_state(\"LOUL\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R3",
+   "id": "T07"
+  },
+  {
+   "text": "door_state(\"LUOC\") returns 'CLOSED'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T08"
+  },
+  {
+   "text": "door_state(\"LULU\") returns 'CLOSED'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T09"
+  },
+  {
+   "text": "door_state(\"LUL\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T10"
+  },
+  {
+   "text": "door_state(\"LUUO\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R4",
+   "id": "T11"
+  },
+  {
+   "text": "door_state(\"LUOCL\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R5",
+   "id": "T12"
+  }
+ ],
+ "score_band": [
+  {
+   "text": "score_band(\"4\") returns 'LOW'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T01"
+  },
+  {
+   "text": "score_band(\"04\") returns 'LOW'",
+   "kind": "contradicts",
+   "rule": "R1",
+   "id": "T02"
+  },
+  {
+   "text": "score_band(\"254\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T03"
+  },
+  {
+   "text": "score_band(\"5\") returns 'LOW'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T04"
+  },
+  {
+   "text": "score_band(\"2\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T05"
+  },
+  {
+   "text": "score_band(\"014\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T06"
+  },
+  {
+   "text": "score_band(\"007\") raises ValueError with the message \"leading zero\"",
+   "kind": "not_required",
+   "rule": "R1",
+   "id": "T07"
+  },
+  {
+   "text": "score_band(\"008\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T08"
+  },
+  {
+   "text": "score_band(\"14\") returns 'MID'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T09"
+  },
+  {
+   "text": "score_band(\"17\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T10"
+  },
+  {
+   "text": "score_band(\"15\") returns 'HIGH'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T11"
+  },
+  {
+   "text": "score_band(\"57\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T12"
+  }
+ ],
+ "brackets": [
+  {
+   "text": "bracket_kind(\"[][()]\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R6",
+   "id": "T01"
+  },
+  {
+   "text": "bracket_kind(\"[][]()\") returns 'MIXED'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T02"
+  },
+  {
+   "text": "bracket_kind(\"((()))\") returns 'ROUND'",
+   "kind": "contradicts",
+   "rule": "R2",
+   "id": "T03"
+  },
+  {
+   "text": "bracket_kind(\"()(())\") returns 'ROUND'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T04"
+  },
+  {
+   "text": "bracket_kind(\"(()[])\") returns 'MIXED'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T05"
+  },
+  {
+   "text": "bracket_kind(\"[[)][]\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R1",
+   "id": "T06"
+  },
+  {
+   "text": "bracket_kind(\"[]\") raises ValueError",
+   "kind": "contradicts",
+   "rule": null,
+   "id": "T07"
+  },
+  {
+   "text": "bracket_kind(\"[[]]\") returns its result in under one millisecond",
+   "kind": "not_required",
+   "rule": null,
+   "id": "T08"
+  },
+  {
+   "text": "bracket_kind(\"[[[]]]\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T09"
+  },
+  {
+   "text": "bracket_kind(\"(([]))\") raises ValueError with the message \"nested too deep\"",
+   "kind": "not_required",
+   "rule": "R2",
+   "id": "T10"
+  },
+  {
+   "text": "bracket_kind(\"([])\") returns 'MIXED'",
+   "kind": "good_valid",
+   "rule": null,
+   "id": "T11"
+  },
+  {
+   "text": "bracket_kind(\"([[]])\") raises ValueError",
+   "kind": "good_invalid",
+   "rule": "R2",
+   "id": "T12"
+  }
+ ]
+}

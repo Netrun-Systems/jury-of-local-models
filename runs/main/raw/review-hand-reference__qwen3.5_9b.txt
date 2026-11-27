@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "[\"545\"]", "reason": "The implementation correctly rejects out-of-order inputs, but does not properly handle cases where digits are in valid sorted order but form neither TRIPLE/PAIR/RUN patterns - these should still return PLAIN which it does."}

@@ -1,0 +1,16 @@
+```json
+{
+  "T01": {"verdict": "REQUIRED", "rule": "R2"},
+  "T02": {"verdict": "NOT_REQUIRED", "rule": "-"},
+  "T03": {"verdict": "REQUIRED", "rule": "R4"},
+  "T04": {"verdict": "REQUIRED", "rule": "-"},
+  "T05": {"verdict": "REQUIRED", "rule": "-"},
+  "T06": {"verdict": "REQUIRED", "rule": "-"},
+  "T07": {"verdict": "REQUIRED", "rule": "R2"},
+  "T08": {"verdict": "REQUIRED", "rule": "R1"},
+  "T09": {"verdict": "CONTRADICTS", "rule": "R2"},
+  "T10": {"verdict": "REQUIRED", "rule": "-"},
+  "T11": {"verdict": "NOT_REQUIRED", "rule": "-"},
+  "T12": {"verdict": "REQUIRED", "rule": "-"}
+}
+```

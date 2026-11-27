@@ -1,0 +1,3243 @@
+{
+ "run": "main",
+ "tasks": [
+  "bin_code",
+  "span",
+  "tags",
+  "level",
+  "route",
+  "slot_time",
+  "hand",
+  "door",
+  "score_band",
+  "brackets"
+ ],
+ "jurors": {
+  "deepseek-r1:14b": {
+   "gold": {
+    "x": 337,
+    "n": 360,
+    "rate": 0.9361111111111111,
+    "low": 0.9056751068117235,
+    "high": 0.9590723935974639
+   },
+   "cases_correct_of_all": {
+    "x": 1346,
+    "n": 1440,
+    "rate": 0.9347222222222222,
+    "low": 0.9207065196981361,
+    "high": 0.9469301381257131
+   },
+   "cases_correct_of_answered": {
+    "x": 1346,
+    "n": 1440,
+    "rate": 0.9347222222222222,
+    "low": 0.9207065196981361,
+    "high": 0.9469301381257131
+   },
+   "no_answer": {
+    "x": 0,
+    "n": 1440,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.0025584434337890083
+   },
+   "seated": {
+    "x": 23,
+    "n": 30,
+    "rate": 0.7666666666666667,
+    "low": 0.5771634770217935,
+    "high": 0.9006621350419803
+   },
+   "changed_between_repeats": {
+    "x": 85,
+    "n": 960,
+    "rate": 0.08854166666666667,
+    "low": 0.07133480872462544,
+    "high": 0.1083194025763734
+   }
+  },
+  "gemma4:12b": {
+   "gold": {
+    "x": 342,
+    "n": 360,
+    "rate": 0.95,
+    "low": 0.9221276043868205,
+    "high": 0.9701011600460565
+   },
+   "cases_correct_of_all": {
+    "x": 1375,
+    "n": 1440,
+    "rate": 0.9548611111111112,
+    "low": 0.9428257860919071,
+    "high": 0.9649928703755137
+   },
+   "cases_correct_of_answered": {
+    "x": 1375,
+    "n": 1440,
+    "rate": 0.9548611111111112,
+    "low": 0.9428257860919071,
+    "high": 0.9649928703755137
+   },
+   "no_answer": {
+    "x": 0,
+    "n": 1440,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.0025584434337890083
+   },
+   "seated": {
+    "x": 24,
+    "n": 30,
+    "rate": 0.8,
+    "low": 0.6143334890034053,
+    "high": 0.9228644879989345
+   },
+   "changed_between_repeats": {
+    "x": 45,
+    "n": 960,
+    "rate": 0.046875,
+    "low": 0.03439324701147323,
+    "high": 0.06222241347503654
+   }
+  },
+  "gpt-oss:20b": {
+   "gold": {
+    "x": 355,
+    "n": 360,
+    "rate": 0.9861111111111112,
+    "low": 0.9678872416435269,
+    "high": 0.9954753440946704
+   },
+   "cases_correct_of_all": {
+    "x": 1431,
+    "n": 1440,
+    "rate": 0.99375,
+    "low": 0.9881688447958048,
+    "high": 0.9971382374295987
+   },
+   "cases_correct_of_answered": {
+    "x": 1431,
+    "n": 1440,
+    "rate": 0.99375,
+    "low": 0.9881688447958048,
+    "high": 0.9971382374295987
+   },
+   "no_answer": {
+    "x": 0,
+    "n": 1440,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.0025584434337890083
+   },
+   "seated": {
+    "x": 28,
+    "n": 30,
+    "rate": 0.9333333333333333,
+    "low": 0.7792645984770488,
+    "high": 0.9918218655393438
+   },
+   "changed_between_repeats": {
+    "x": 17,
+    "n": 960,
+    "rate": 0.017708333333333333,
+    "low": 0.010348736786158837,
+    "high": 0.028201765964649766
+   }
+  },
+  "phi4:latest": {
+   "gold": {
+    "x": 311,
+    "n": 360,
+    "rate": 0.8638888888888889,
+    "low": 0.8240750171649207,
+    "high": 0.8975794637787724
+   },
+   "cases_correct_of_all": {
+    "x": 1261,
+    "n": 1440,
+    "rate": 0.8756944444444444,
+    "low": 0.857537038110481,
+    "high": 0.8923028094252672
+   },
+   "cases_correct_of_answered": {
+    "x": 1261,
+    "n": 1439,
+    "rate": 0.8763029881862404,
+    "low": 0.8581733706072103,
+    "high": 0.8928798802618756
+   },
+   "no_answer": {
+    "x": 1,
+    "n": 1440,
+    "rate": 0.0006944444444444445,
+    "low": 1.758165654106589e-05,
+    "high": 0.0038630605135665437
+   },
+   "seated": {
+    "x": 16,
+    "n": 30,
+    "rate": 0.5333333333333333,
+    "low": 0.3432552381607439,
+    "high": 0.7165819208164632
+   },
+   "changed_between_repeats": {
+    "x": 124,
+    "n": 958,
+    "rate": 0.12943632567849686,
+    "low": 0.10882247542316753,
+    "high": 0.15235767635056324
+   }
+  },
+  "qwen3.5:9b": {
+   "gold": {
+    "x": 348,
+    "n": 360,
+    "rate": 0.9666666666666667,
+    "low": 0.9424977198663553,
+    "high": 0.9826598325446172
+   },
+   "cases_correct_of_all": {
+    "x": 1357,
+    "n": 1440,
+    "rate": 0.9423611111111111,
+    "low": 0.929046165206562,
+    "high": 0.9538328023706639
+   },
+   "cases_correct_of_answered": {
+    "x": 1357,
+    "n": 1439,
+    "rate": 0.9430159833217512,
+    "low": 0.9297586376980687,
+    "high": 0.9544256883054743
+   },
+   "no_answer": {
+    "x": 1,
+    "n": 1440,
+    "rate": 0.0006944444444444445,
+    "low": 1.758165654106589e-05,
+    "high": 0.0038630605135665437
+   },
+   "seated": {
+    "x": 26,
+    "n": 30,
+    "rate": 0.8666666666666667,
+    "low": 0.6927816497238855,
+    "high": 0.9624465036616368
+   },
+   "changed_between_repeats": {
+    "x": 71,
+    "n": 959,
+    "rate": 0.0740354535974974,
+    "low": 0.05827190523175432,
+    "high": 0.0924713992435251
+   }
+  },
+  "paid": {
+   "gold": {
+    "x": 120,
+    "n": 120,
+    "rate": 1.0,
+    "low": 0.9697270274225573,
+    "high": 1.0
+   },
+   "cases_correct_of_all": {
+    "x": 480,
+    "n": 480,
+    "rate": 1.0,
+    "low": 0.9923442898504105,
+    "high": 1.0
+   },
+   "cases_correct_of_answered": {
+    "x": 480,
+    "n": 480,
+    "rate": 1.0,
+    "low": 0.9923442898504105,
+    "high": 1.0
+   },
+   "no_answer": {
+    "x": 0,
+    "n": 480,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.007655710149586598
+   },
+   "seated": {
+    "x": 10,
+    "n": 10,
+    "rate": 1.0,
+    "low": 0.6915028921812352,
+    "high": 1.0
+   },
+   "changed_between_repeats": {
+    "x": 0,
+    "n": 0,
+    "rate": null,
+    "low": null,
+    "high": null
+   }
+  }
+ },
+ "pairs": {
+  "deepseek-r1:14b + gemma4:12b": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1332,
+     "n": 1440,
+     "rate": 0.925,
+     "low": 0.9101630995495034,
+     "high": 0.9380732456546819
+    },
+    "wrong": {
+     "x": 25,
+     "n": 1332,
+     "rate": 0.01876876876876877,
+     "low": 0.012182064345891041,
+     "high": 0.02758240789818979
+    },
+    "tasks_with_a_wrong_answer": 6,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 11,
+    "variants_caught": {
+     "x": 126,
+     "n": 132,
+     "rate": 0.9545454545454546,
+     "low": 0.9036905603916994,
+     "high": 0.9831387801967733
+    },
+    "variants_missed_though_catchable": 3,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 24,
+     "n": 60,
+     "rate": 0.4,
+     "low": 0.2756215787355736,
+     "high": 0.5345945626885733
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9,
+     "1": 0.9271,
+     "2": 0.9479
+    }
+   },
+   "seated": {
+    "cells": 21,
+    "cases": 1008,
+    "settled": {
+     "x": 945,
+     "n": 1008,
+     "rate": 0.9375,
+     "low": 0.9207402948844745,
+     "high": 0.9516426553655934
+    },
+    "wrong": {
+     "x": 14,
+     "n": 945,
+     "rate": 0.014814814814814815,
+     "low": 0.00812243999147078,
+     "high": 0.024731923649735706
+    },
+    "tasks_with_a_wrong_answer": 4,
+    "tasks": 9,
+    "wrong_that_accept_invalid_input": 9,
+    "variants_caught": {
+     "x": 86,
+     "n": 90,
+     "rate": 0.9555555555555556,
+     "low": 0.8900991731220085,
+     "high": 0.9877594721499887
+    },
+    "variants_missed_though_catchable": 1,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 12,
+     "n": 42,
+     "rate": 0.2857142857142857,
+     "low": 0.1571914667657417,
+     "high": 0.44583880330796877
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9226,
+     "1": 0.9524,
+     "2": 0.9375
+    }
+   },
+   "wrong_answers": [
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "level",
+     "rep": "2",
+     "input": "-5.5",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "route",
+     "rep": "0",
+     "input": "N1E1N2",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "route",
+     "rep": "1",
+     "input": "N2S1",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "hand",
+     "rep": "1",
+     "input": "245",
+     "adopted": "RUN",
+     "truth": "PLAIN",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "LU",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "LUOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "LULU",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "1",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "2",
+     "input": "LUOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "door",
+     "rep": "2",
+     "input": "LULU",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "door",
+     "rep": "2",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "brackets",
+     "rep": "0",
+     "input": "[[ ]]",
+     "adopted": "SQUARE",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[[][]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[][[]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    }
+   ]
+  },
+  "deepseek-r1:14b + gpt-oss:20b": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1337,
+     "n": 1440,
+     "rate": 0.9284722222222223,
+     "low": 0.913920359953273,
+     "high": 0.9412447772992227
+    },
+    "wrong": {
+     "x": 0,
+     "n": 1337,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.002755269400801418
+    },
+    "tasks_with_a_wrong_answer": 0,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 0,
+    "variants_caught": {
+     "x": 127,
+     "n": 132,
+     "rate": 0.9621212121212122,
+     "low": 0.9138179983731951,
+     "high": 0.987588371692321
+    },
+    "variants_missed_though_catchable": 2,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 0,
+     "n": 60,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.059629492286166916
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.8917,
+     "1": 0.9437,
+     "2": 0.95
+    }
+   },
+   "seated": {
+    "cells": 21,
+    "cases": 1008,
+    "settled": {
+     "x": 956,
+     "n": 1008,
+     "rate": 0.9484126984126984,
+     "low": 0.9328973611535485,
+     "high": 0.9612355235532446
+    },
+    "wrong": {
+     "x": 0,
+     "n": 956,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.0038512254525673614
+    },
+    "tasks_with_a_wrong_answer": 0,
+    "tasks": 9,
+    "wrong_that_accept_invalid_input": 0,
+    "variants_caught": {
+     "x": 84,
+     "n": 88,
+     "rate": 0.9545454545454546,
+     "low": 0.8876907508161072,
+     "high": 0.9874781768786833
+    },
+    "variants_missed_though_catchable": 1,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 0,
+     "n": 42,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.08408385494035511
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9375,
+     "1": 0.9557,
+     "2": 0.9494
+    }
+   },
+   "wrong_answers": []
+  },
+  "deepseek-r1:14b + phi4:latest": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1258,
+     "n": 1440,
+     "rate": 0.8736111111111111,
+     "low": 0.8553366674870233,
+     "high": 0.8903453837817403
+    },
+    "wrong": {
+     "x": 42,
+     "n": 1258,
+     "rate": 0.033386327503974564,
+     "low": 0.024165746740820893,
+     "high": 0.04486256202671135
+    },
+    "tasks_with_a_wrong_answer": 8,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 22,
+    "variants_caught": {
+     "x": 130,
+     "n": 132,
+     "rate": 0.9848484848484849,
+     "low": 0.946340068764782,
+     "high": 0.9981597852313848
+    },
+    "variants_missed_though_catchable": 2,
+    "variants_no_case_could_catch": 0,
+    "correct_builds_failed": {
+     "x": 34,
+     "n": 60,
+     "rate": 0.5666666666666667,
+     "low": 0.4324096535546551,
+     "high": 0.6941185731578281
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.8896,
+     "1": 0.8375,
+     "2": 0.8938
+    }
+   },
+   "seated": {
+    "cells": 14,
+    "cases": 672,
+    "settled": {
+     "x": 601,
+     "n": 672,
+     "rate": 0.8943452380952381,
+     "low": 0.8686027546389208,
+     "high": 0.9165569772236197
+    },
+    "wrong": {
+     "x": 19,
+     "n": 601,
+     "rate": 0.03161397670549085,
+     "low": 0.01913882455652273,
+     "high": 0.048930182308397865
+    },
+    "tasks_with_a_wrong_answer": 3,
+    "tasks": 7,
+    "wrong_that_accept_invalid_input": 17,
+    "variants_caught": {
+     "x": 60,
+     "n": 60,
+     "rate": 1.0,
+     "low": 0.940370507713854,
+     "high": 1.0
+    },
+    "variants_missed_though_catchable": 0,
+    "variants_no_case_could_catch": 0,
+    "correct_builds_failed": {
+     "x": 12,
+     "n": 28,
+     "rate": 0.42857142857142855,
+     "low": 0.24462393630213553,
+     "high": 0.6282063713879036
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9125,
+     "1": 0.8854,
+     "2": 0.8833
+    }
+   },
+   "wrong_answers": [
+    {
+     "task": "bin_code",
+     "rep": "2",
+     "input": "A3-x",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "edit",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "level",
+     "rep": "2",
+     "input": "-5.5",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "route",
+     "rep": "0",
+     "input": "N1E1N1",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "route",
+     "rep": "0",
+     "input": "E3S3W3",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "route",
+     "rep": "0",
+     "input": "S1E3S3",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "route",
+     "rep": "0",
+     "input": "S2W3",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "route",
+     "rep": "0",
+     "input": "S1E1S1",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "route",
+     "rep": "1",
+     "input": "N1E1N1",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "route",
+     "rep": "1",
+     "input": "E3S3W3",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "hand",
+     "rep": "2",
+     "input": "554",
+     "adopted": "PAIR",
+     "truth": "INVALID",
+     "stratum": "edit",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCL",
+     "adopted": "INVALID",
+     "truth": "LOCKED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "1",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "2",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"0\"",
+     "adopted": "LOW",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"20\"",
+     "adopted": "HIGH",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"8\"",
+     "adopted": "MID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"7\"",
+     "adopted": "LOW",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"14\"",
+     "adopted": "MID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"15\"",
+     "adopted": "HIGH",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "1",
+     "input": "\"7\"",
+     "adopted": "LOW",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "2",
+     "input": "\"20\"",
+     "adopted": "HIGH",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "brackets",
+     "rep": "0",
+     "input": "[[ ]]",
+     "adopted": "SQUARE",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "0",
+     "input": "[](())",
+     "adopted": "INVALID",
+     "truth": "MIXED",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[[][]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[][[]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[](())",
+     "adopted": "INVALID",
+     "truth": "MIXED",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "2",
+     "input": "[[()]]",
+     "adopted": "SQUARE",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "brackets",
+     "rep": "2",
+     "input": "[][[]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "brackets",
+     "rep": "2",
+     "input": "[](())",
+     "adopted": "INVALID",
+     "truth": "MIXED",
+     "stratum": "valid-sample",
+     "seated": true
+    }
+   ]
+  },
+  "deepseek-r1:14b + qwen3.5:9b": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1317,
+     "n": 1440,
+     "rate": 0.9145833333333333,
+     "low": 0.8989399178362234,
+     "high": 0.9285094680552757
+    },
+    "wrong": {
+     "x": 24,
+     "n": 1317,
+     "rate": 0.018223234624145785,
+     "low": 0.01170998810279367,
+     "high": 0.026994020192589584
+    },
+    "tasks_with_a_wrong_answer": 4,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 15,
+    "variants_caught": {
+     "x": 128,
+     "n": 132,
+     "rate": 0.9696969696969697,
+     "low": 0.9242302287757109,
+     "high": 0.991682947522857
+    },
+    "variants_missed_though_catchable": 3,
+    "variants_no_case_could_catch": 1,
+    "correct_builds_failed": {
+     "x": 18,
+     "n": 60,
+     "rate": 0.3,
+     "low": 0.188451445419756,
+     "high": 0.4320831338760629
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9042,
+     "1": 0.9062,
+     "2": 0.9333
+    }
+   },
+   "seated": {
+    "cells": 22,
+    "cases": 1056,
+    "settled": {
+     "x": 996,
+     "n": 1056,
+     "rate": 0.9431818181818182,
+     "low": 0.927465525248256,
+     "high": 0.9563652056927676
+    },
+    "wrong": {
+     "x": 14,
+     "n": 996,
+     "rate": 0.014056224899598393,
+     "low": 0.00770540626092945,
+     "high": 0.023471594687610654
+    },
+    "tasks_with_a_wrong_answer": 3,
+    "tasks": 9,
+    "wrong_that_accept_invalid_input": 13,
+    "variants_caught": {
+     "x": 91,
+     "n": 93,
+     "rate": 0.978494623655914,
+     "low": 0.9244670279474934,
+     "high": 0.9973849053028669
+    },
+    "variants_missed_though_catchable": 1,
+    "variants_no_case_could_catch": 1,
+    "correct_builds_failed": {
+     "x": 12,
+     "n": 44,
+     "rate": 0.2727272727272727,
+     "low": 0.14957684376531155,
+     "high": 0.4278964124555007
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9554,
+     "1": 0.9453,
+     "2": 0.9286
+    }
+   },
+   "wrong_answers": [
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "LULU",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "2",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"20\"",
+     "adopted": "HIGH",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"8\"",
+     "adopted": "MID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "1",
+     "input": "\"7\"",
+     "adopted": "LOW",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[[()]]",
+     "adopted": "SQUARE",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[[][]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[]([])",
+     "adopted": "INVALID",
+     "truth": "MIXED",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[][[]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[](())",
+     "adopted": "INVALID",
+     "truth": "MIXED",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "2",
+     "input": "(()(()))",
+     "adopted": "ROUND",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "2",
+     "input": "[][[]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "2",
+     "input": "[](())",
+     "adopted": "INVALID",
+     "truth": "MIXED",
+     "stratum": "valid-sample",
+     "seated": false
+    }
+   ]
+  },
+  "gemma4:12b + gpt-oss:20b": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1366,
+     "n": 1440,
+     "rate": 0.9486111111111111,
+     "low": 0.9359128284530225,
+     "high": 0.9594364131154394
+    },
+    "wrong": {
+     "x": 0,
+     "n": 1366,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.002696854341166568
+    },
+    "tasks_with_a_wrong_answer": 0,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 0,
+    "variants_caught": {
+     "x": 128,
+     "n": 132,
+     "rate": 0.9696969696969697,
+     "low": 0.9242302287757109,
+     "high": 0.991682947522857
+    },
+    "variants_missed_though_catchable": 1,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 0,
+     "n": 60,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.059629492286166916
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9333,
+     "1": 0.9521,
+     "2": 0.9604
+    }
+   },
+   "seated": {
+    "cells": 22,
+    "cases": 1056,
+    "settled": {
+     "x": 1019,
+     "n": 1056,
+     "rate": 0.9649621212121212,
+     "low": 0.9520263139756378,
+     "high": 0.9752124441678607
+    },
+    "wrong": {
+     "x": 0,
+     "n": 1019,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.0036135529462135514
+    },
+    "tasks_with_a_wrong_answer": 0,
+    "tasks": 8,
+    "wrong_that_accept_invalid_input": 0,
+    "variants_caught": {
+     "x": 92,
+     "n": 95,
+     "rate": 0.968421052631579,
+     "low": 0.9104775020130595,
+     "high": 0.9934397082498414
+    },
+    "variants_missed_though_catchable": 0,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 0,
+     "n": 44,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.08041993976357587
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9524,
+     "1": 0.9643,
+     "2": 0.9766
+    }
+   },
+   "wrong_answers": []
+  },
+  "gemma4:12b + phi4:latest": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1269,
+     "n": 1440,
+     "rate": 0.88125,
+     "low": 0.863412362463027,
+     "high": 0.8975148874030403
+    },
+    "wrong": {
+     "x": 32,
+     "n": 1269,
+     "rate": 0.0252167060677699,
+     "low": 0.017310694875836995,
+     "high": 0.035413202858709344
+    },
+    "tasks_with_a_wrong_answer": 7,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 14,
+    "variants_caught": {
+     "x": 128,
+     "n": 132,
+     "rate": 0.9696969696969697,
+     "low": 0.9242302287757109,
+     "high": 0.991682947522857
+    },
+    "variants_missed_though_catchable": 1,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 32,
+     "n": 60,
+     "rate": 0.5333333333333333,
+     "low": 0.39996490258434403,
+     "high": 0.6633008637495488
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.8958,
+     "1": 0.8583,
+     "2": 0.8896
+    }
+   },
+   "seated": {
+    "cells": 16,
+    "cases": 768,
+    "settled": {
+     "x": 688,
+     "n": 768,
+     "rate": 0.8958333333333334,
+     "low": 0.8720362796490022,
+     "high": 0.9165356143315959
+    },
+    "wrong": {
+     "x": 10,
+     "n": 688,
+     "rate": 0.014534883720930232,
+     "low": 0.0069914649414656235,
+     "high": 0.026567293269861667
+    },
+    "tasks_with_a_wrong_answer": 3,
+    "tasks": 7,
+    "wrong_that_accept_invalid_input": 9,
+    "variants_caught": {
+     "x": 67,
+     "n": 70,
+     "rate": 0.9571428571428572,
+     "low": 0.8798213946733944,
+     "high": 0.991073095922341
+    },
+    "variants_missed_though_catchable": 0,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 8,
+     "n": 32,
+     "rate": 0.25,
+     "low": 0.11461600510258046,
+     "high": 0.4340493749222426
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.8958,
+     "1": 0.8906,
+     "2": 0.8988
+    }
+   },
+   "wrong_answers": [
+    {
+     "task": "span",
+     "rep": "0",
+     "input": "2-8",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "span",
+     "rep": "1",
+     "input": "2-8",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "level",
+     "rep": "0",
+     "input": "-5.5",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "level",
+     "rep": "1",
+     "input": "-5.5",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "level",
+     "rep": "2",
+     "input": "-5.5",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "route",
+     "rep": "0",
+     "input": "S1N2",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "hand",
+     "rep": "0",
+     "input": "233",
+     "adopted": "INVALID",
+     "truth": "PAIR",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "hand",
+     "rep": "1",
+     "input": "334",
+     "adopted": "INVALID",
+     "truth": "PAIR",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "hand",
+     "rep": "1",
+     "input": "233",
+     "adopted": "INVALID",
+     "truth": "PAIR",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "hand",
+     "rep": "1",
+     "input": "244",
+     "adopted": "PLAIN",
+     "truth": "PAIR",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "1",
+     "input": "LU",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "1",
+     "input": "LULU",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "1",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "2",
+     "input": "OCL",
+     "adopted": "INVALID",
+     "truth": "LOCKED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "2",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "0",
+     "input": "[[ ]]",
+     "adopted": "SQUARE",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "0",
+     "input": "[[][]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "(()())",
+     "adopted": "INVALID",
+     "truth": "ROUND",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[[][]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[][[]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    }
+   ]
+  },
+  "gemma4:12b + qwen3.5:9b": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1327,
+     "n": 1440,
+     "rate": 0.9215277777777777,
+     "low": 0.9064142671379418,
+     "high": 0.9348931817882979
+    },
+    "wrong": {
+     "x": 16,
+     "n": 1327,
+     "rate": 0.012057272042200452,
+     "low": 0.006907046394195537,
+     "high": 0.01950658036344801
+    },
+    "tasks_with_a_wrong_answer": 3,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 9,
+    "variants_caught": {
+     "x": 122,
+     "n": 132,
+     "rate": 0.9242424242424242,
+     "low": 0.8650916842930156,
+     "high": 0.9630744056955451
+    },
+    "variants_missed_though_catchable": 7,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 14,
+     "n": 60,
+     "rate": 0.23333333333333334,
+     "low": 0.13383734388887703,
+     "high": 0.36038278710575855
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9375,
+     "1": 0.8979,
+     "2": 0.9292
+    }
+   },
+   "seated": {
+    "cells": 22,
+    "cases": 1056,
+    "settled": {
+     "x": 997,
+     "n": 1056,
+     "rate": 0.9441287878787878,
+     "low": 0.9285187591095394,
+     "high": 0.9571996708722981
+    },
+    "wrong": {
+     "x": 10,
+     "n": 997,
+     "rate": 0.010030090270812437,
+     "low": 0.004820001275477416,
+     "high": 0.018368115479468296
+    },
+    "tasks_with_a_wrong_answer": 2,
+    "tasks": 8,
+    "wrong_that_accept_invalid_input": 9,
+    "variants_caught": {
+     "x": 91,
+     "n": 95,
+     "rate": 0.9578947368421052,
+     "low": 0.8956916268102437,
+     "high": 0.9884103541006206
+    },
+    "variants_missed_though_catchable": 1,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 8,
+     "n": 44,
+     "rate": 0.18181818181818182,
+     "low": 0.08191884088070794,
+     "high": 0.32713685024624606
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9554,
+     "1": 0.9405,
+     "2": 0.9375
+    }
+   },
+   "wrong_answers": [
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "LULU",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "2",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "brackets",
+     "rep": "0",
+     "input": "[[][]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[[][]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[][]",
+     "adopted": "MIXED",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[][[]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    }
+   ]
+  },
+  "gpt-oss:20b + phi4:latest": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1252,
+     "n": 1440,
+     "rate": 0.8694444444444445,
+     "low": 0.8509404463989207,
+     "high": 0.8864259814564495
+    },
+    "wrong": {
+     "x": 0,
+     "n": 1252,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.002942052995173352
+    },
+    "tasks_with_a_wrong_answer": 0,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 0,
+    "variants_caught": {
+     "x": 127,
+     "n": 132,
+     "rate": 0.9621212121212122,
+     "low": 0.9138179983731951,
+     "high": 0.987588371692321
+    },
+    "variants_missed_though_catchable": 2,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 0,
+     "n": 60,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.059629492286166916
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.875,
+     "1": 0.8479,
+     "2": 0.8854
+    }
+   },
+   "seated": {
+    "cells": 15,
+    "cases": 720,
+    "settled": {
+     "x": 642,
+     "n": 720,
+     "rate": 0.8916666666666667,
+     "low": 0.8666448967608378,
+     "high": 0.9134206819361153
+    },
+    "wrong": {
+     "x": 0,
+     "n": 642,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.005729441937215947
+    },
+    "tasks_with_a_wrong_answer": 0,
+    "tasks": 7,
+    "wrong_that_accept_invalid_input": 0,
+    "variants_caught": {
+     "x": 62,
+     "n": 65,
+     "rate": 0.9538461538461539,
+     "low": 0.8709887201017483,
+     "high": 0.9903789211596614
+    },
+    "variants_missed_though_catchable": 0,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 0,
+     "n": 30,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.11570330822202776
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.8854,
+     "1": 0.8958,
+     "2": 0.8929
+    }
+   },
+   "wrong_answers": []
+  },
+  "gpt-oss:20b + qwen3.5:9b": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1348,
+     "n": 1440,
+     "rate": 0.9361111111111111,
+     "low": 0.9222188960173341,
+     "high": 0.9481891500959434
+    },
+    "wrong": {
+     "x": 0,
+     "n": 1348,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.002732816498408385
+    },
+    "tasks_with_a_wrong_answer": 0,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 0,
+    "variants_caught": {
+     "x": 124,
+     "n": 132,
+     "rate": 0.9393939393939394,
+     "low": 0.8840739909555149,
+     "high": 0.9734741710178179
+    },
+    "variants_missed_though_catchable": 5,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 0,
+     "n": 60,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.059629492286166916
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9458,
+     "1": 0.9187,
+     "2": 0.9437
+    }
+   },
+   "seated": {
+    "cells": 24,
+    "cases": 1152,
+    "settled": {
+     "x": 1110,
+     "n": 1152,
+     "rate": 0.9635416666666666,
+     "low": 0.9510363155578727,
+     "high": 0.9736001029227281
+    },
+    "wrong": {
+     "x": 0,
+     "n": 1110,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.003317798725087076
+    },
+    "tasks_with_a_wrong_answer": 0,
+    "tasks": 9,
+    "wrong_that_accept_invalid_input": 0,
+    "variants_caught": {
+     "x": 98,
+     "n": 102,
+     "rate": 0.9607843137254902,
+     "low": 0.9026290375228567,
+     "high": 0.9892133486673058
+    },
+    "variants_missed_though_catchable": 1,
+    "variants_no_case_could_catch": 3,
+    "correct_builds_failed": {
+     "x": 0,
+     "n": 48,
+     "rate": 0.0,
+     "low": 0.0,
+     "high": 0.07397278534728022
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9688,
+     "1": 0.9688,
+     "2": 0.9531
+    }
+   },
+   "wrong_answers": []
+  },
+  "phi4:latest + qwen3.5:9b": {
+   "all": {
+    "cells": 30,
+    "cases": 1440,
+    "settled": {
+     "x": 1262,
+     "n": 1440,
+     "rate": 0.8763888888888889,
+     "low": 0.8582708377219155,
+     "high": 0.8929549395105838
+    },
+    "wrong": {
+     "x": 37,
+     "n": 1262,
+     "rate": 0.029318541996830427,
+     "low": 0.02072517122896695,
+     "high": 0.04018685014168226
+    },
+    "tasks_with_a_wrong_answer": 5,
+    "tasks": 10,
+    "wrong_that_accept_invalid_input": 23,
+    "variants_caught": {
+     "x": 127,
+     "n": 132,
+     "rate": 0.9621212121212122,
+     "low": 0.9138179983731951,
+     "high": 0.987588371692321
+    },
+    "variants_missed_though_catchable": 5,
+    "variants_no_case_could_catch": 0,
+    "correct_builds_failed": {
+     "x": 26,
+     "n": 60,
+     "rate": 0.43333333333333335,
+     "low": 0.3058814268422142,
+     "high": 0.5675903464453853
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.8854,
+     "1": 0.8521,
+     "2": 0.8917
+    }
+   },
+   "seated": {
+    "cells": 15,
+    "cases": 720,
+    "settled": {
+     "x": 657,
+     "n": 720,
+     "rate": 0.9125,
+     "low": 0.8894366830185039,
+     "high": 0.9321088983651158
+    },
+    "wrong": {
+     "x": 17,
+     "n": 657,
+     "rate": 0.0258751902587519,
+     "low": 0.015143888933632776,
+     "high": 0.041106215517990485
+    },
+    "tasks_with_a_wrong_answer": 3,
+    "tasks": 6,
+    "wrong_that_accept_invalid_input": 13,
+    "variants_caught": {
+     "x": 65,
+     "n": 65,
+     "rate": 1.0,
+     "low": 0.944828365681192,
+     "high": 1.0
+    },
+    "variants_missed_though_catchable": 0,
+    "variants_no_case_could_catch": 0,
+    "correct_builds_failed": {
+     "x": 12,
+     "n": 30,
+     "rate": 0.4,
+     "low": 0.22655764882859802,
+     "high": 0.5939650699481815
+    },
+    "correct_builds_inconclusive": 0,
+    "coverage_by_repeat": {
+     "0": 0.9208,
+     "1": 0.9062,
+     "2": 0.9097
+    }
+   },
+   "wrong_answers": [
+    {
+     "task": "bin_code",
+     "rep": "1",
+     "input": "A3-y",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "0",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"a+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "1",
+     "input": "\"c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "edit",
+     "seated": false
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"a+b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b+c\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "\"b\"",
+     "adopted": "VALID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "tags",
+     "rep": "2",
+     "input": "b",
+     "adopted": "INVALID",
+     "truth": "VALID",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "door",
+     "rep": "0",
+     "input": "OCOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "1",
+     "input": "OCOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "1",
+     "input": "CC",
+     "adopted": "CLOSED",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "1",
+     "input": "LUOC",
+     "adopted": "INVALID",
+     "truth": "CLOSED",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "door",
+     "rep": "2",
+     "input": "OCO",
+     "adopted": "INVALID",
+     "truth": "OPEN",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"20\"",
+     "adopted": "HIGH",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "0",
+     "input": "\"8\"",
+     "adopted": "MID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "1",
+     "input": "\"7\"",
+     "adopted": "LOW",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "2",
+     "input": "\"14\"",
+     "adopted": "MID",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "2",
+     "input": "\"0",
+     "adopted": "LOW",
+     "truth": "INVALID",
+     "stratum": "edit",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "2",
+     "input": "2",
+     "adopted": "MID",
+     "truth": "LOW",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "2",
+     "input": "15",
+     "adopted": "MID",
+     "truth": "HIGH",
+     "stratum": "valid-sample",
+     "seated": true
+    },
+    {
+     "task": "score_band",
+     "rep": "2",
+     "input": "08",
+     "adopted": "MID",
+     "truth": "INVALID",
+     "stratum": "edit",
+     "seated": true
+    },
+    {
+     "task": "brackets",
+     "rep": "0",
+     "input": "[[][]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "(( ))",
+     "adopted": "ROUND",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[()]",
+     "adopted": "MIXED",
+     "truth": "INVALID",
+     "stratum": "proposal",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "(() )",
+     "adopted": "ROUND",
+     "truth": "INVALID",
+     "stratum": "edit",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[[][]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[][[]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "1",
+     "input": "[](())",
+     "adopted": "INVALID",
+     "truth": "MIXED",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "2",
+     "input": "[][[]]",
+     "adopted": "INVALID",
+     "truth": "SQUARE",
+     "stratum": "valid-sample",
+     "seated": false
+    },
+    {
+     "task": "brackets",
+     "rep": "2",
+     "input": "[](())",
+     "adopted": "INVALID",
+     "truth": "MIXED",
+     "stratum": "valid-sample",
+     "seated": false
+    }
+   ]
+  }
+ },
+ "primary_pair": "gemma4:12b + gpt-oss:20b",
+ "hypotheses": {
+  "H1": {
+   "verdict": "SUPPORTED",
+   "primary_pair": "gemma4:12b + gpt-oss:20b",
+   "wrong": {
+    "x": 0,
+    "n": 1019,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.0036135529462135514
+   },
+   "enough_cases": true,
+   "tasks_with_a_wrong_answer": 0,
+   "tasks": 8,
+   "interval_resampling_tasks": [
+    0.0,
+    0.0
+   ],
+   "other_pairs_over_the_refutation_line": [
+    "deepseek-r1:14b + phi4:latest",
+    "phi4:latest + qwen3.5:9b"
+   ],
+   "pairs_compared": 10
+  },
+  "H2": {
+   "verdict": "SUPPORTED",
+   "spearman": 0.8898984166292194,
+   "pairs": 10
+  },
+  "H3": {
+   "verdict": "SUPPORTED",
+   "gate": {
+    "caught_bad": 29,
+    "missed_bad": 1,
+    "passed_good": 14,
+    "failed_good": 0,
+    "balanced_accuracy": 0.9833333333333334
+   },
+   "reviewers": {
+    "qwen3.5:9b": {
+     "caught_bad": 28,
+     "missed_bad": 2,
+     "passed_good": 10,
+     "failed_good": 4,
+     "no_usable_verdict": 1,
+     "balanced_accuracy": 0.8238095238095238,
+     "failing_inputs_that_really_fail": {
+      "x": 24,
+      "n": 32,
+      "rate": 0.75,
+      "low": 0.5659506250777453,
+      "high": 0.8853839948974116
+     }
+    }
+   },
+   "gate_lead": 0.15952380952380962
+  },
+  "H4": {
+   "verdict": "SUPPORTED",
+   "variants_caught": {
+    "x": 92,
+    "n": 95,
+    "rate": 0.968421052631579,
+    "low": 0.9104775020130595,
+    "high": 0.9934397082498414
+   },
+   "missed_though_a_case_could_catch_it": 0,
+   "no_case_could_catch_it": 3
+  },
+  "H5": {
+   "verdict": "NOT SUPPORTED",
+   "planted_tests_both_flagged": {
+    "x": 28,
+    "n": 40,
+    "rate": 0.7,
+    "low": 0.5346837147458494,
+    "high": 0.8343727956067641
+   },
+   "good_tests_both_flagged": {
+    "x": 0,
+    "n": 80,
+    "rate": 0.0,
+    "low": 0.0,
+    "high": 0.045064035067692285
+   },
+   "jurors": {
+    "deepseek-r1:14b": {
+     "planted_caught": {
+      "x": 28,
+      "n": 40,
+      "rate": 0.7,
+      "low": 0.5346837147458494,
+      "high": 0.8343727956067641
+     },
+     "good_flagged": {
+      "x": 5,
+      "n": 80,
+      "rate": 0.0625,
+      "low": 0.02060307230200572,
+      "high": 0.13985707529763908
+     },
+     "right_rule_cited": {
+      "x": 35,
+      "n": 38,
+      "rate": 0.9210526315789473,
+      "low": 0.7862267088193806,
+      "high": 0.9834135241354705
+     },
+     "no_usable_verdict": 0
+    },
+    "gemma4:12b": {
+     "planted_caught": {
+      "x": 28,
+      "n": 40,
+      "rate": 0.7,
+      "low": 0.5346837147458494,
+      "high": 0.8343727956067641
+     },
+     "good_flagged": {
+      "x": 1,
+      "n": 80,
+      "rate": 0.0125,
+      "low": 0.00031642252763270555,
+      "high": 0.06768778446392235
+     },
+     "right_rule_cited": {
+      "x": 35,
+      "n": 40,
+      "rate": 0.875,
+      "low": 0.7319670826382598,
+      "high": 0.958140373861383
+     },
+     "no_usable_verdict": 0
+    },
+    "gpt-oss:20b": {
+     "planted_caught": {
+      "x": 40,
+      "n": 40,
+      "rate": 1.0,
+      "low": 0.9119026971211812,
+      "high": 1.0
+     },
+     "good_flagged": {
+      "x": 1,
+      "n": 80,
+      "rate": 0.0125,
+      "low": 0.00031642252763270555,
+      "high": 0.06768778446392235
+     },
+     "right_rule_cited": {
+      "x": 37,
+      "n": 39,
+      "rate": 0.9487179487179487,
+      "low": 0.8267552186263973,
+      "high": 0.9937280279043097
+     },
+     "no_usable_verdict": 0
+    },
+    "phi4:latest": {
+     "planted_caught": {
+      "x": 15,
+      "n": 40,
+      "rate": 0.375,
+      "low": 0.22726272248180723,
+      "high": 0.5419852477673883
+     },
+     "good_flagged": {
+      "x": 1,
+      "n": 80,
+      "rate": 0.0125,
+      "low": 0.00031642252763270555,
+      "high": 0.06768778446392235
+     },
+     "right_rule_cited": {
+      "x": 29,
+      "n": 39,
+      "rate": 0.7435897435897436,
+      "low": 0.5787261156214325,
+      "high": 0.8696232007644129
+     },
+     "no_usable_verdict": 0
+    },
+    "qwen3.5:9b": {
+     "planted_caught": {
+      "x": 35,
+      "n": 40,
+      "rate": 0.875,
+      "low": 0.7319670826382598,
+      "high": 0.958140373861383
+     },
+     "good_flagged": {
+      "x": 6,
+      "n": 80,
+      "rate": 0.075,
+      "low": 0.02802054617683536,
+      "high": 0.15612793173607187
+     },
+     "right_rule_cited": {
+      "x": 35,
+      "n": 38,
+      "rate": 0.9210526315789473,
+      "low": 0.7862267088193806,
+      "high": 0.9834135241354705
+     },
+     "no_usable_verdict": 0
+    }
+   }
+  },
+  "H6": {
+   "verdict": "SUPPORTED",
+   "wrong_answers_that_accept_invalid_input": {
+    "x": 70,
+    "n": 84,
+    "rate": 0.8333333333333334,
+    "low": 0.7362003530914394,
+    "high": 0.9057762603441764
+   },
+   "distinct_inputs": 28
+  }
+ },
+ "arbiter": {
+  "accuracy": {
+   "x": 480,
+   "n": 480,
+   "rate": 1.0,
+   "low": 0.9923442898504105,
+   "high": 1.0
+  },
+  "wrong_answers_it_would_correct": {
+   "x": 176,
+   "n": 176,
+   "rate": 1.0,
+   "low": 0.9792585822661368,
+   "high": 1.0
+  },
+  "chance_a_sample_contains_a_wrong_answer": []
+ },
+ "thresholds": {
+  "_about": "Fixed before any model run (see PROTOCOL.md). analyze.py reads these; changing one after a run is a deviation that must be recorded in PROTOCOL.md.",
+  "primary_pair": [
+   "gpt-oss:20b",
+   "gemma4:12b"
+  ],
+  "seat_min_gold": 0.9,
+  "gate_min_settled": 10,
+  "H1_supported_at_or_below": 0.01,
+  "H1_refuted_above": 0.02,
+  "H1_min_settled": 299,
+  "H1_max_tasks_with_a_wrong_answer": 1,
+  "H2_min_spearman": 0.6,
+  "H3_min_gate_lead": 0.15,
+  "H4_min_variants_caught": 0.8,
+  "H5_min_planted_caught": 0.75,
+  "H5_max_good_flagged": 0.15,
+  "H6_min_leniency_share": 0.6,
+  "audit_sample_fraction": 0.1,
+  "declared_additional_pairs": [
+   {
+    "pair": [
+     "gpt-oss:20b",
+     "deepseek-r1:14b"
+    ],
+    "declared": "2026-11-25, after the interim results had been read",
+    "why": "Daniel's decision. gemma4:12b crashed on this workstation's Ollama even with thinking off (33 of 80 first attempts), which cost the primary pair half its task-repeats. This pair was chosen knowing its interim result (0 wrong answers of 956 settled), so it is weaker evidence than the primary pair."
+   }
+  ]
+ },
+ "calls": 468,
+ "declared_additions": [
+  {
+   "pair": "deepseek-r1:14b + gpt-oss:20b",
+   "declared": "2026-11-25, after the interim results had been read",
+   "why": "Daniel's decision. gemma4:12b crashed on this workstation's Ollama even with thinking off (33 of 80 first attempts), which cost the primary pair half its task-repeats. This pair was chosen knowing its interim result (0 wrong answers of 956 settled), so it is weaker evidence than the primary pair.",
+   "hypotheses": {
+    "H1": {
+     "verdict": "SUPPORTED",
+     "primary_pair": "deepseek-r1:14b + gpt-oss:20b",
+     "wrong": {
+      "x": 0,
+      "n": 956,
+      "rate": 0.0,
+      "low": 0.0,
+      "high": 0.0038512254525673614
+     },
+     "enough_cases": true,
+     "tasks_with_a_wrong_answer": 0,
+     "tasks": 9,
+     "interval_resampling_tasks": [
+      0.0,
+      0.0
+     ],
+     "other_pairs_over_the_refutation_line": [
+      "deepseek-r1:14b + phi4:latest",
+      "phi4:latest + qwen3.5:9b"
+     ],
+     "pairs_compared": 10
+    },
+    "H3": {
+     "verdict": "NOT SUPPORTED",
+     "gate": {
+      "caught_bad": 24,
+      "missed_bad": 1,
+      "passed_good": 12,
+      "failed_good": 0,
+      "balanced_accuracy": 0.98
+     },
+     "reviewers": {
+      "qwen3.5:9b": {
+       "caught_bad": 24,
+       "missed_bad": 1,
+       "passed_good": 9,
+       "failed_good": 3,
+       "no_usable_verdict": 1,
+       "balanced_accuracy": 0.855,
+       "failing_inputs_that_really_fail": {
+        "x": 20,
+        "n": 27,
+        "rate": 0.7407407407407407,
+        "low": 0.5371512577238382,
+        "high": 0.8888554371545576
+       }
+      }
+     },
+     "gate_lead": 0.125
+    },
+    "H4": {
+     "verdict": "SUPPORTED",
+     "variants_caught": {
+      "x": 84,
+      "n": 88,
+      "rate": 0.9545454545454546,
+      "low": 0.8876907508161072,
+      "high": 0.9874781768786833
+     },
+     "missed_though_a_case_could_catch_it": 1,
+     "no_case_could_catch_it": 3
+    },
+    "H5": {
+     "verdict": "NOT SUPPORTED",
+     "planted_tests_both_flagged": {
+      "x": 28,
+      "n": 40,
+      "rate": 0.7,
+      "low": 0.5346837147458494,
+      "high": 0.8343727956067641
+     },
+     "good_tests_both_flagged": {
+      "x": 0,
+      "n": 80,
+      "rate": 0.0,
+      "low": 0.0,
+      "high": 0.045064035067692285
+     },
+     "jurors": {
+      "deepseek-r1:14b": {
+       "planted_caught": {
+        "x": 28,
+        "n": 40,
+        "rate": 0.7,
+        "low": 0.5346837147458494,
+        "high": 0.8343727956067641
+       },
+       "good_flagged": {
+        "x": 5,
+        "n": 80,
+        "rate": 0.0625,
+        "low": 0.02060307230200572,
+        "high": 0.13985707529763908
+       },
+       "right_rule_cited": {
+        "x": 35,
+        "n": 38,
+        "rate": 0.9210526315789473,
+        "low": 0.7862267088193806,
+        "high": 0.9834135241354705
+       },
+       "no_usable_verdict": 0
+      },
+      "gemma4:12b": {
+       "planted_caught": {
+        "x": 28,
+        "n": 40,
+        "rate": 0.7,
+        "low": 0.5346837147458494,
+        "high": 0.8343727956067641
+       },
+       "good_flagged": {
+        "x": 1,
+        "n": 80,
+        "rate": 0.0125,
+        "low": 0.00031642252763270555,
+        "high": 0.06768778446392235
+       },
+       "right_rule_cited": {
+        "x": 35,
+        "n": 40,
+        "rate": 0.875,
+        "low": 0.7319670826382598,
+        "high": 0.958140373861383
+       },
+       "no_usable_verdict": 0
+      },
+      "gpt-oss:20b": {
+       "planted_caught": {
+        "x": 40,
+        "n": 40,
+        "rate": 1.0,
+        "low": 0.9119026971211812,
+        "high": 1.0
+       },
+       "good_flagged": {
+        "x": 1,
+        "n": 80,
+        "rate": 0.0125,
+        "low": 0.00031642252763270555,
+        "high": 0.06768778446392235
+       },
+       "right_rule_cited": {
+        "x": 37,
+        "n": 39,
+        "rate": 0.9487179487179487,
+        "low": 0.8267552186263973,
+        "high": 0.9937280279043097
+       },
+       "no_usable_verdict": 0
+      },
+      "phi4:latest": {
+       "planted_caught": {
+        "x": 15,
+        "n": 40,
+        "rate": 0.375,
+        "low": 0.22726272248180723,
+        "high": 0.5419852477673883
+       },
+       "good_flagged": {
+        "x": 1,
+        "n": 80,
+        "rate": 0.0125,
+        "low": 0.00031642252763270555,
+        "high": 0.06768778446392235
+       },
+       "right_rule_cited": {
+        "x": 29,
+        "n": 39,
+        "rate": 0.7435897435897436,
+        "low": 0.5787261156214325,
+        "high": 0.8696232007644129
+       },
+       "no_usable_verdict": 0
+      },
+      "qwen3.5:9b": {
+       "planted_caught": {
+        "x": 35,
+        "n": 40,
+        "rate": 0.875,
+        "low": 0.7319670826382598,
+        "high": 0.958140373861383
+       },
+       "good_flagged": {
+        "x": 6,
+        "n": 80,
+        "rate": 0.075,
+        "low": 0.02802054617683536,
+        "high": 0.15612793173607187
+       },
+       "right_rule_cited": {
+        "x": 35,
+        "n": 38,
+        "rate": 0.9210526315789473,
+        "low": 0.7862267088193806,
+        "high": 0.9834135241354705
+       },
+       "no_usable_verdict": 0
+      }
+     }
+    }
+   }
+  }
+ ]
+}

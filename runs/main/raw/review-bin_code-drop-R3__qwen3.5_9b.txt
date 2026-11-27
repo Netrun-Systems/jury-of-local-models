@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "\"A2-z\"", "reason": "The implementation accepts invalid slot letters like 'z' because it doesn't validate that rest equals '-x' or '-y'—it only checks len(rest) > 2, allowing \"A2-z\" to return (\"A\", 2, \"z\") which violates R3."}

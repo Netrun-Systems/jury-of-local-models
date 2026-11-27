@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "LUOCL", "reason": "implementation does not enforce R5 (maximum 4 events) and would accept a 5-event sequence like 'LUOCL' when it should raise ValueError"}

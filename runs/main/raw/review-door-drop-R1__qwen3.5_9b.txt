@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "OO", "reason": "The second 'O' operates on an already OPEN state and silently does nothing instead of raising ValueError for attempting to open an already-open door"}

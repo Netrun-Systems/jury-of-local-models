@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "21", "reason": "Returns HIGH instead of raising ValueError for scores above 20, violating R2"}

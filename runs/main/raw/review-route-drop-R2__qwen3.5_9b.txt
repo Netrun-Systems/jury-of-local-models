@@ -1,0 +1,7 @@
+```json
+{
+  "verdict": "INCORRECT",
+  "failing_input": "N2N1",
+  "reason": "The implementation does not check R2 (two consecutive moves may not have the same direction), allowing N2N1 to pass when it should raise ValueError for consecutive identical directions."
+}
+```

@@ -1,0 +1,3 @@
+```json
+{"1": "LOCKED", "2": "INVALID", "3": "INVALID", "4": "INVALID", "5": "INVALID", "6": "INVALID", "7": "OPEN", "8": "INVALID", "9": "INVALID", "10": "INVALID", "11": "INVALID", "12": "INVALID", "13": "CLOSED", "14": "INVALID", "15": "INVALID", "16": "INVALID", "17": "INVALID", "18": "OPEN", "19": "INVALID", "20": "LOCKED", "21": "INVALID", "22": "INVALID", "23": "INVALID", "24": "CLOSED", "25": "INVALID", "26": "INVALID", "27": "INVALID", "28": "INVALID", "29": "INVALID", "30": "INVALID"}
+```

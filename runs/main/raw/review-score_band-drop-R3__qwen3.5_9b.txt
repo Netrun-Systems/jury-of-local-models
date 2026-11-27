@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "5", "reason": "The function returns 'MID' for scores between 0 and 7, but the request specifies that this range must return 'LOW'."}

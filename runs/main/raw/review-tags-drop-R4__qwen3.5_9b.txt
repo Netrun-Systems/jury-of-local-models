@@ -1,0 +1,1 @@
+{"verdict": "INCORRECT", "failing_input": "a+b+c", "reason": "The implementation does not enforce R4 (at most two tags) and would incorrectly return ('a', 'b', 'c') for this input"}

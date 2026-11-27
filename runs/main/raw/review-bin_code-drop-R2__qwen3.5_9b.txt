@@ -1,0 +1,5 @@
+{
+  "verdict": "INCORRECT",
+  "failing_input": "A4",
+  "reason": "R2 requires level digits 1-3 but implementation only checks isdigit() without validating range, so A4 returns (\"A\", 4, None) instead of raising ValueError"
+}
